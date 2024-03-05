@@ -177,7 +177,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             </ul>
                           </li>
                           <li>
-                            <Link href="client-feedback">Testimonials</Link>
+                            <Link href="client-feedback">Client FeedBack</Link>
                           </li>
                           <li>
                             <Link href="contact-us">Contact Us</Link>

@@ -14,7 +14,6 @@ import FooterTwo from "./footer/FooterTwo";
 import FooterThree from "./footer/FooterThree";
 import FooterFour from "./footer/FooterFour";
 import FooterFive from "./footer/FooterFive";
-import VideoModal from "./VideoModal";
 import ScrollProgressBtn from "./ScrollProgressBtn";
 import CustomCursor from "./CustomCursor";
 import SplitType from "split-type";

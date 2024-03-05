@@ -54,7 +54,7 @@ const HomeThreeAgency = () => {
                 </Link>
                 <Link
                   href="contact-us"
-                  className="btn btn--primary text-capitalize"
+                  className="btn btn--primary"
                 >
                   Book A Call
                 </Link>

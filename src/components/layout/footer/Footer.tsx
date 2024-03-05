@@ -41,7 +41,7 @@ const Footer = () => {
           <div className="col-12 col-lg-2 col-xl-2">
             <div className="footer__single">
               <div className="footer__single-intro">
-                <h5>discover</h5>
+                <h5>Discover</h5>
               </div>
               <div className="footer__single-content">
                 <ul>
@@ -62,19 +62,18 @@ const Footer = () => {
               </div>
               <div className="footer__single-content">
                 <ul>
-                  
                   <li>
-                    <Link rel="stylesheet" href="service-single" >
+                    <Link rel="stylesheet" href="service-single">
                       Content Creation
                     </Link>
                   </li>
                   <li>
-                    <Link rel="stylesheet" href="service-single" >
+                    <Link rel="stylesheet" href="service-single">
                       Video Editing
                     </Link>
                   </li>
                   <li>
-                    <Link rel="stylesheet" href="service-single" >
+                    <Link rel="stylesheet" href="service-single">
                       Social Media Management
                     </Link>
                   </li>

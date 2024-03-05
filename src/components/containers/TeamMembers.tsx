@@ -35,7 +35,7 @@ const TeamMembers = () => {
                   <div className="text-center text-lg-end">
                     <Link
                       href="our-teams"
-                      className="btn btn--primary text-capitalize"
+                      className="btn btn--primary"
                     >
                       view all teams
                     </Link>

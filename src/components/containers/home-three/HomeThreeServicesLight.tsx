@@ -26,7 +26,7 @@ const HomeThreeServicesLight = () => {
                   <div className="text-center text-lg-end">
                     <Link
                       href="our-services"
-                      className="btn btn--primary text-capitalize"
+                      className="btn btn--primary"
                     >
                       view all service
                     </Link>

@@ -73,7 +73,7 @@ const FooterFour = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="text-center text-lg-end">
-              <Link href="mailto:unblueconsultation@gmail.com" className="text-capitalize">
+              <Link href="mailto:unblueconsultation@gmail.com" className="">
                 unblueconsultation@gmail.com
               </Link>
             </div>

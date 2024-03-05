@@ -67,7 +67,7 @@ i {
     color: white;
     line-height: 60px;
     opacity: 0;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 12px;
   }
@@ -209,7 +209,7 @@ i {
 
   h6 {
     letter-spacing: 0.15em;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     margin-bottom: 16px;
     color: var(--theme-color);
     margin-bottom: 22px;
@@ -219,7 +219,7 @@ i {
     font-weight: 700;
     color: var(--theme-color);
     margin-bottom: 16px;
-    text-transform: capitalize;
+    // text-transform: capitalize;
   }
 }
 
@@ -242,14 +242,14 @@ i {
     color: var(--primary-color);
     border-radius: 30px;
     margin-bottom: 32px;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     i {
       transform: rotate(-45deg);
     }
   }
 
   .title {
-    text-transform: capitalize;
+    // text-transform: capitalize;
     font-weight: 700;
   }
 }
@@ -269,7 +269,7 @@ i {
     color: var(--primary-color);
     border-radius: 30px;
     margin-bottom: 32px;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     i {
       transform: rotate(-45deg);
     }
@@ -278,7 +278,7 @@ i {
   .title {
     margin-bottom: 30px;
     font-weight: 700;
-    text-transform: capitalize;
+    // text-transform: capitalize;
   }
 }
 
@@ -374,15 +374,15 @@ i {
   inset: 0px;
   z-index: -3;
 
+  background-image: url("");
   // pokka v2
-  background-color: #000000;
-  opacity: 0.7;
-  background-image: radial-gradient(#f3f4c1 0.45px, transparent 0.45px),
-    radial-gradient(#f3f4c1 0.45px, #000000 0.45px);
-  background-size: 18px 18px;
-  background-position: 0 0, 9px 9px;
+  // background-color: #000000;
+  // opacity: 0.7;
+  // background-image: radial-gradient(#f3f4c1 0.45px, transparent 0.45px),
+  //   radial-gradient(#f3f4c1 0.45px, #000000 0.45px);
+  // background-size: 18px 18px;
+  // background-position: 0 0, 9px 9px;
 
-  
   // .line {
   //   width: 1px;
   //   height: 100%;

@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "public/images/logo.png";
+import { useEffect, useState } from "react";
 
 interface HeaderProps {
   openNav: boolean;
@@ -100,37 +100,21 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     <li>
                       <Link href="/">Creative Agency</Link>
                     </li>
-                    {/* <li>
-                      <Link href="index-light">Creative Agency Light</Link>
-                    </li> */}
+
                     <li>
                       <Link href="index-two">UI Work</Link>
                     </li>
-                    {/* <li>
-                      <Link href="index-two-light">Digital Agency Light</Link>
-                    </li> */}
+
                     <li>
                       <Link href="index-three">It Solution</Link>
                     </li>
-                    {/* <li>
-                      <Link href="index-three-light">It Solution Light</Link>
-                    </li> */}
+
                     <li>
                       <Link href="index-four">Personal Portfolio</Link>
                     </li>
-                    {/* <li>
-                      <Link href="index-four-light">
-                        Personal Portfolio Light
-                      </Link>
-                    </li> */}
                     <li>
                       <Link href="index-five">Work Samples</Link>
                     </li>
-                    {/* <li>
-                      <Link href="index-five-light">
-                        Interactive Portfolio Light
-                      </Link>
-                    </li> */}
                   </ul>
                 </li>
                 <li className="navbar__item nav-fade">
@@ -186,7 +170,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     )}`}
                     onClick={() => handleSubmenu("pages")}
                   >
-                   FAQs & Stories
+                    FAQs & Stories
                   </button>
                   <ul className={`navbar__sub-menu ${isSubMenuOpen("pages")}`}>
                     <li>
@@ -219,7 +203,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                       </ul>
                     </li>
                     <li>
-                      <Link href="client-feedback">Testimonials</Link>
+                      <Link href="client-feedback">Client FeedBack</Link>
                     </li>
                     <li>
                       <Link href="contact-us">Contact Us</Link>
@@ -250,7 +234,11 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           </div>
           <div className="offcanvas-menu__options nav-fade">
             <div className="offcanvas__mobile-options d-flex">
-              <Link href="contact-us" className="btn btn--secondary" target="_blank">
+              <Link
+                href="contact-us"
+                className="btn btn--secondary"
+                target="_blank"
+              >
                 Let&apos;s Talk
               </Link>
             </div>
@@ -271,15 +259,15 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               <i className="fa-brands fa-twitter"></i>
             </Link>
             <Link
-             href="https://www.linkedin.com/company/unblue-consultation/"
-             target="_blank"
-             aria-label="share us on Linkedln"
-             >
+              href="https://www.linkedin.com/company/unblue-consultation/"
+              target="_blank"
+              aria-label="share us on Linkedln"
+            >
               <i className="fa-brands fa-linkedin-in"></i>
             </Link>
             <Link
-            //done
-              href="https://www.instagram.com/unblue.in" 
+              //done
+              href="https://www.instagram.com/unblue.in"
               target="_blank"
               aria-label="share us on instagram"
             >
