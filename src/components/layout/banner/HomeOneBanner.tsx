@@ -52,7 +52,12 @@ const HomeOneBanner = () => {
           <div className="row">
             <div className="col-12">
               <div className="banner__content">
-                <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
+                <h1
+                  className="text-uppercase text-start fw-9 mb-0 title-anim"
+                  style={{
+                    pointerEvents: "none",
+                  }}
+                >
                   We are
                   <span className="text-stroke">creative</span>
                   <span className="interval">
@@ -81,22 +86,29 @@ const HomeOneBanner = () => {
           </div>
         </div>
         <Image
+          style={{
+            pointerEvents: "none",
+          }}
+          //TODO
           src={banneronethumb}
           alt="Image"
           className="banner-one-thumb d-none d-sm-block g-ban-one"
         />
         <Image src={star} alt="Image" className="star" />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
-          <Link href="mailto:info@xpovio.com">
+          <Link href="mailto:unblueconsultation@gmail.com">
             mail : unblueconsultation@gmail.com
           </Link>
-          <Link href="tel:99-2158-003-6980">Call : +91 72609 20637 </Link>
+          <Link href="tel:+91 72609 20637">Call : +91 72609 20637 </Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
-        <Link href=" https://www.instagram.com/unblue.in" target="_blank">
+          <Link href=" https://www.instagram.com/unblue.in" target="_blank">
             instagram
           </Link>
-          <Link href="https://www.linkedin.com/company/unblue-consultation/"  target="_blank">
+          <Link
+            href="https://www.linkedin.com/company/unblue-consultation/"
+            target="_blank"
+          >
             Linkedin
           </Link>
           <Link href="https://www.facebook.com/" target="_blank">
@@ -111,11 +123,11 @@ const HomeOneBanner = () => {
           <i className="fa-sharp fa-solid fa-play"></i>
         </button>
         <div className="lines d-none d-lg-flex">
+          {/* <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
+          <div className="line"></div> */}
         </div>
       </section>
       <div
@@ -127,7 +139,7 @@ const HomeOneBanner = () => {
             className="video-container"
             onClick={(e: any) => e.stopPropagation()}
           >
-            {videoActive && <YoutubeEmbed embedId="h9TUpJ2W6wI" />}
+            {videoActive && <YoutubeEmbed embedId="6ZbdMUKbOxQ" />}
             <button
               aria-label="close video popup"
               className="close-video-popup"

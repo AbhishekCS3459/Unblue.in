@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import type { AppProps } from "next/app";
-
+import { RecoilRoot } from "recoil";
 // bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -15,8 +15,10 @@ import "@/styles/main.scss";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <Component {...pageProps} />
-    </Suspense>
+    <RecoilRoot>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Component {...pageProps} />
+      </Suspense>
+    </RecoilRoot>
   );
 }

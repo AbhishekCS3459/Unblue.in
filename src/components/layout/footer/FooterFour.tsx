@@ -49,7 +49,10 @@ const FooterFour = () => {
           <div className="col-12 col-lg-6">
             <ul className="justify-content-center justify-content-lg-start">
               <li>
-                <Link href="https://www.linkedin.com/company/unblue-consultation/" target="_blank">
+                <Link
+                  href="https://www.linkedin.com/company/unblue-consultation/"
+                  target="_blank"
+                >
                   Linkedin
                 </Link>
               </li>
@@ -59,7 +62,10 @@ const FooterFour = () => {
                 </Link>
               </li>
               <li>
-                <Link href="https://www.instagram.com/unblue.in" target="_blank">
+                <Link
+                  href="https://www.instagram.com/unblue.in"
+                  target="_blank"
+                >
                   Instagram
                 </Link>
               </li>
@@ -67,8 +73,8 @@ const FooterFour = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="text-center text-lg-end">
-              <Link href="mailto:hello@website.com" className="text-capitalize">
-                hello@website.com
+              <Link href="mailto:unblueconsultation@gmail.com" className="text-capitalize">
+                unblueconsultation@gmail.com
               </Link>
             </div>
           </div>
@@ -82,11 +88,11 @@ const FooterFour = () => {
                 <div className="row align-items-center gaper">
                   <div className="col-12 col-lg-8">
                     <div className="footer__copyright-text text-center text-lg-start">
-                    <p>
-                      Copyright &copy;
-                      <span id="copyYear">{currentYear}</span> by Unblue {" "}
-                      . All Rights Reserved
-                    </p>
+                      <p>
+                        Copyright &copy;
+                        <span id="copyYear">{currentYear}</span> by Unblue . All
+                        Rights Reserved
+                      </p>
                     </div>
                   </div>
                   <div className="col-12 col-lg-4">

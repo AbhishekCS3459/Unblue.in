@@ -127,7 +127,8 @@ const ServiceMain = () => {
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* pitch designing  */}
+                {/* <SwiperSlide>
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
                       <div className="intro">
@@ -154,7 +155,7 @@ const ServiceMain = () => {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide>
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">

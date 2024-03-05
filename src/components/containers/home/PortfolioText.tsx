@@ -170,7 +170,7 @@ const PortfolioText = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          {/* <div className="col-12 col-sm-6 col-xl-3">
             <div
               className={
                 "portfolio__single topy-tilt fade-top" +
@@ -232,7 +232,7 @@ const PortfolioText = () => {
                 </h4>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-12 col-sm-6 col-xl-3">
             <div className="portfolio__single-alt-wrapper fade-top">
               <div className="portfolio__single-alt topy-tilt">
@@ -247,7 +247,7 @@ const PortfolioText = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          {/* <div className="col-12 col-sm-6 col-xl-3">
             <div
               className={
                 "portfolio__single topy-tilt fade-top" +
@@ -267,15 +267,15 @@ const PortfolioText = () => {
                 </h4>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="lines d-none d-lg-flex">
+        {/* <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
-        <div className="line"></div>
-        <div className="line"></div>
+        <div className="line"></div> */}
       </div>
     </section>
   );

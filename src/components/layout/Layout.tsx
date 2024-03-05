@@ -36,7 +36,6 @@ const Layout = ({
   handleMouseLeaveTitle,
   video,
 }: LayoutProps) => {
-
   // tilt effect
   useEffect(() => {
     const tiltElements = document.querySelectorAll(".topy-tilt");
@@ -182,10 +181,7 @@ const Layout = ({
         />
         <title>Unblue| Digital & Marketing Agency </title>
         <meta name="keywords" content="creative, agency, portfolio" />
-        <meta
-          name="description"
-          content="Digital Agency Creative Portfolio"
-        />
+        <meta name="description" content="Digital Agency Creative Portfolio" />
       </Head>
       <div className={combinedClassName}>
         {header === 1 && (
@@ -229,7 +225,7 @@ const Layout = ({
         {footer === 3 && <FooterThree />}
         {footer === 4 && <FooterFour />}
         {footer === 5 && <FooterFive />}
-        {video ? <VideoModal /> : null}
+        {/* {video ? <VideoModal /> : null} */}
         <ScrollProgressBtn />
         <CustomCursor
           onTitleMouseEnter={handleMouseEnterTitle}

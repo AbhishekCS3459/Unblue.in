@@ -58,9 +58,9 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </Link>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="mailto:info@xpovio.com">
+                        <Link href="mailto:unblueconsultation@gmail.com">
                           <i className="fa-sharp fa-solid fa-envelope"></i>
-                          info@xpovio.com
+                          unblueconsultation@gmail.com
                         </Link>
                       </li>
                     </ul>
@@ -77,7 +77,7 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </button>
                     <div className="tertiary-cta d-none d-sm-flex">
                       <div className="navbar__mobile-options">
-                        <Link href="contact-us" className="btn btn--secondary">
+                        <Link href="contact-us" className="btn btn--secondary" target="_blank">
                           Let&apos;s Talk
                         </Link>
                       </div>

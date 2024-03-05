@@ -26,7 +26,7 @@ const Footer = () => {
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
                   +91 72609 20637
                 </Link>
-                <Link href="mailto:info@xpovio.com">
+                <Link href="mailto:unblueconsultation@gmail.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
                   unblueconsultation@gmail.com
                 </Link>
@@ -58,14 +58,32 @@ const Footer = () => {
           <div className="col-12 col-lg-5 col-xl-4">
             <div className="footer__single">
               <div className="footer__single-intro">
-                <h5>Subscribe our newsletter</h5>
+                <h5>Services</h5>
               </div>
               <div className="footer__single-content">
-                <p>
+                <ul>
+                  
+                  <li>
+                    <Link rel="stylesheet" href="service-single" >
+                      Content Creation
+                    </Link>
+                  </li>
+                  <li>
+                    <Link rel="stylesheet" href="service-single" >
+                      Video Editing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link rel="stylesheet" href="service-single" >
+                      Social Media Management
+                    </Link>
+                  </li>
+                </ul>
+                {/* <p>
                   Welcome to our digital agency We specialize in helping
                   business most like yours succeed online.
-                </p>
-                <div className="footer__single-form">
+                </p> */}
+                {/* <div className="footer__single-form">
                   <form action="#" method="post">
                     <div className="input-email">
                       <input
@@ -80,7 +98,7 @@ const Footer = () => {
                       </button>
                     </div>
                   </form>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -93,8 +111,8 @@ const Footer = () => {
                   <div className="footer__copyright-text text-center text-lg-start">
                     <p>
                       Copyright &copy;
-                      <span id="copyYear">{currentYear}</span> by Unblue {" "}
-                      . All Rights Reserved
+                      <span id="copyYear">{currentYear}</span> by Unblue . All
+                      Rights Reserved
                     </p>
                   </div>
                 </div>
@@ -106,10 +124,16 @@ const Footer = () => {
                     <Link href="https://www.twitter.com/" target="_blank">
                       <i className="fa-brands fa-twitter"></i>
                     </Link>
-                    <Link href="https://www.linkedin.com/company/unblue-consultation/" target="_blank">
+                    <Link
+                      href="https://www.linkedin.com/company/unblue-consultation/"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
-                    <Link href=" https://www.instagram.com/unblue.in" target="_blank">
+                    <Link
+                      href=" https://www.instagram.com/unblue.in"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-instagram"></i>
                     </Link>
                   </div>

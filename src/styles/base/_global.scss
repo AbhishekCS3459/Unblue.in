@@ -362,6 +362,7 @@ i {
   }
 }
 
+// TODO
 .lines {
   overflow: hidden;
   z-index: -1;
@@ -372,14 +373,24 @@ i {
   height: 100%;
   inset: 0px;
   z-index: -3;
-  .line {
-    width: 1px;
-    height: 100%;
-    min-height: 100vh;
-    top: 0;
-    background-color: #343434;
-    z-index: -1;
-  }
+
+  // pokka v2
+  background-color: #000000;
+  opacity: 0.7;
+  background-image: radial-gradient(#f3f4c1 0.45px, transparent 0.45px),
+    radial-gradient(#f3f4c1 0.45px, #000000 0.45px);
+  background-size: 18px 18px;
+  background-position: 0 0, 9px 9px;
+
+  
+  // .line {
+  //   width: 1px;
+  //   height: 100%;
+  //   min-height: 100vh;
+  //   top: 0;
+  //   background-color: #343434;
+  //   z-index: -1;
+  // }
 }
 
 // video popup

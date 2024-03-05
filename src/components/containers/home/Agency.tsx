@@ -174,7 +174,7 @@ const Agency = () => {
                   </div>
                 </div>
                 {/* Startup Funding & Growth Strategies  */}
-                <div className="skill-bar-single">
+                {/* <div className="skill-bar-single">
                   <div className="skill-bar-title">
                     <p className="primary-text">
                       Startup Funding & Growth Strategies
@@ -187,7 +187,7 @@ const Agency = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="section__content-cta">
                 <Link href="about-us" className="btn btn--primary">

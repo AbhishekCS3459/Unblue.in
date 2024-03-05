@@ -359,7 +359,7 @@ const BlogMain = () => {
             className="video-container"
             onClick={(e: any) => e.stopPropagation()}
           >
-            
+            {/* 6ZbdMUKbOxQ */}
             {videoActive && <YoutubeEmbed embedId="h9TUpJ2W6wI" />}
             <button
               aria-label="close video popup"

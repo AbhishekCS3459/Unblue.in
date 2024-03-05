@@ -141,7 +141,7 @@ const HomeThreeServices = () => {
                   (imgTab == 2 ? " service-f-single-active" : " ")
                 }
               >
-                <div className="single-item">
+                {/* <div className="single-item">
                   <span className="sub-title">
                     03
                     <i className="fa-solid fa-arrow-right"></i>
@@ -154,7 +154,7 @@ const HomeThreeServices = () => {
                       technological innovations.
                     </p>
                   </div>
-                </div>
+                </div> */}
                 <div className="p-single single-item p-sm">
                   <ul>
                     <li>

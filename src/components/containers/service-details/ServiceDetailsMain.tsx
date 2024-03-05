@@ -1,9 +1,11 @@
-import React from "react";
+import { serviceSelector } from "@/store/selectors/serviceSingleSelector";
 import Image from "next/image";
 import thumbone from "public/images/service/thumb-one.png";
 import thumbtwo from "public/images/service/thumb-two.png";
+import { useRecoilValue } from "recoil";
 
 const ServiceDetailsMain = () => {
+  const serviceData = useRecoilValue(serviceSelector);
   return (
     <section className="section service-details fade-wrapper">
       <div className="container">
@@ -16,23 +18,9 @@ const ServiceDetailsMain = () => {
                 </div>
                 <div className="details-group section__cta text-start">
                   <h3 className="title-anim">Why do we use it?</h3>
+                  <p>{serviceData.description.para1}</p>
                   <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to
-                    using &apos;Content here, content here&apos;, making it look
-                    like readable English.
-                  </p>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form, by injected humour, or randomised words which
-                    don&apos;t look even slightly believable. If you are going
-                    to use a passage of Lorem Ipsum, you need to be sure there
-                    isn&apos;t anything embarrassing hidden in the middle of
-                    text. All the Lorem Ipsum generators on the Internet tend to
-                    repeat predefined chunks as necessary,
+                    {serviceData.description.para2}
                   </p>
                 </div>
                 <div className="section__content-cta">
@@ -41,16 +29,10 @@ const ServiceDetailsMain = () => {
                       <div className="details-group">
                         <h3 className="title-anim">Our approach</h3>
                         <p>
-                          We employ proven website design strategies in each and
-                          every work, whether it&apos;s a simple informational
-                          website or a full-blown e-commerce website.
+                            {serviceData.approach.para1}
                         </p>
                         <p>
-                          First we create sitemaps, user flows, and wireframes
-                          to hone your message and desired interaction. Then
-                          comes our aesthetically remarkable designs. Every
-                          design is optimized for mobile and desktop to create a
-                          consistent.
+                          {serviceData.approach.para2}
                         </p>
                       </div>
                     </div>

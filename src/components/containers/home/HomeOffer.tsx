@@ -5,8 +5,19 @@ import blogthumb from "public/images/offer/blog-thumb.png";
 import two from "public/images/offer/two.png";
 import three from "public/images/offer/three.png";
 import star from "public/images/offer/star.png";
+import RawData from "./serviceData.json";
+import { serviceData } from "@/store/atoms/serviceSingleAtom";
+import { useRecoilState } from "recoil";
 
 const HomeOffer = () => {
+  const [data, setData] = useRecoilState(serviceData);
+  const linearGradient = {
+    backgroundImage:
+      "linear-gradient(90deg, #ff7425 0%, rgba(255, 116, 37, 0) 60.08%)",
+    backgroundColor: "red",
+    color: "black",
+    fontWeight: "bold",
+  };
   useEffect(() => {
     const handleMouseMove = (event: MouseEvent) => {
       const caseStudyItems = document.querySelectorAll(".offer__cta-single");
@@ -34,9 +45,12 @@ const HomeOffer = () => {
     <section className="section offer fade-wrapper light">
       <div className="container">
         <div className="row gaper">
-          <div className="col-12 col-lg-5">
+          <div className="col-12 col-lg-5 ">
             <div className="offer__content section__content">
-              <span className="sub-title">
+              <span
+                className="sub-title"
+                style={linearGradient}
+              >
                 WHAT WE OFFER
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
@@ -44,7 +58,8 @@ const HomeOffer = () => {
                 Giving Your Business Some Great Ideas
               </h2>
               <div className="paragraph">
-                <p>
+                <p
+                >
                   Bring to the table win-win survival strategies to ensure
                   proactive domination. At the end of the day, going forward, a
                   new normal that has evolved from generation on the runway
@@ -59,16 +74,22 @@ const HomeOffer = () => {
               </div>
             </div>
           </div>
+
           <div className="col-12 col-lg-7 col-xl-6 offset-xl-1">
             <div className="offer__cta">
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
-                  01
-                  <i className="fa-solid fa-arrow-right"></i>
+                  ⭐<i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
-                    uI / uX experience
+                  <Link
+                    href="service-single"
+                    onClick={() => {
+                      setData(RawData.SMM);
+                    }}
+                    style={{ color: "white" }}
+                  >
+                    Social Media Management
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -78,12 +99,17 @@ const HomeOffer = () => {
               </div>
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
-                  02
-                  <i className="fa-solid fa-arrow-right"></i>
+                  ⭐<i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
-                    web development
+                  <Link
+                    href="service-single"
+                    onClick={() => {
+                      setData(RawData.Marketing);
+                    }}
+                    style={{ color: "white" }}
+                  >
+                    Marketing & Branding
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -93,12 +119,17 @@ const HomeOffer = () => {
               </div>
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
-                  03
-                  <i className="fa-solid fa-arrow-right"></i>
+                  ⭐<i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
-                    digital marketing
+                  <Link
+                    href="service-single"
+                    onClick={() => {
+                      setData(RawData.VideoEditing);
+                    }}
+                    style={{ color: "white" }}
+                  >
+                    Video Editing
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -108,12 +139,17 @@ const HomeOffer = () => {
               </div>
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
-                  04
-                  <i className="fa-solid fa-arrow-right"></i>
+                  ⭐<i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
-                    product design
+                  <Link
+                    href="service-single"
+                    onClick={() => {
+                      setData(RawData.Advertisement);
+                    }}
+                    style={{ color: "white" }}
+                  >
+                    Advertisement
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -126,13 +162,13 @@ const HomeOffer = () => {
         </div>
       </div>
       <Image src={star} alt="Image" className="star" />
-      <div className="lines d-none d-lg-flex">
+      {/* <div className="lines d-none d-lg-flex">
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
-      </div>
+      </div> */}
     </section>
   );
 };

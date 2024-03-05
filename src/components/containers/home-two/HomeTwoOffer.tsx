@@ -141,7 +141,7 @@ const HomeTwoOffer = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
                 <span className="sub-title">
@@ -156,8 +156,9 @@ const HomeTwoOffer = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
+          </SwiperSlide> */}
+          {/* pitch desiging  */}
+          {/* <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
                 <span className="sub-title">
@@ -172,7 +173,9 @@ const HomeTwoOffer = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
+
+          {/*  growth strategies  */}
           <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
@@ -205,7 +208,7 @@ const HomeTwoOffer = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
                 <span className="sub-title">
@@ -220,7 +223,7 @@ const HomeTwoOffer = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
@@ -287,7 +290,7 @@ const HomeTwoOffer = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
                 <span className="sub-title">
@@ -302,7 +305,7 @@ const HomeTwoOffer = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
@@ -319,7 +322,7 @@ const HomeTwoOffer = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
                 <span className="sub-title">
@@ -334,7 +337,7 @@ const HomeTwoOffer = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
@@ -351,7 +354,7 @@ const HomeTwoOffer = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
                 <span className="sub-title">
@@ -366,7 +369,7 @@ const HomeTwoOffer = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
@@ -383,7 +386,7 @@ const HomeTwoOffer = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
                 <span className="sub-title">
@@ -398,7 +401,7 @@ const HomeTwoOffer = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
@@ -415,7 +418,7 @@ const HomeTwoOffer = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">
                 <span className="sub-title">
@@ -430,7 +433,7 @@ const HomeTwoOffer = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <div className="offer-two__slider-single offer__cta">
               <div className="offer__cta-single">

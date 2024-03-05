@@ -13,7 +13,7 @@ const OurServices = () => {
       <CmnBanner title="Our Services" navigation="Our Services" />
       <ServiceMain />
       <HomeTwoModal />
-      <UxProcessTwo />
+      {/* <UxProcessTwo /> */}
       <HomeTestimonialThree />
       <CtaTwo />
     </Layout>

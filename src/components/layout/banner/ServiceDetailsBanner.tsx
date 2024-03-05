@@ -1,7 +1,10 @@
-import React from "react";
+
+import { serviceSelector } from "@/store/selectors/serviceSingleSelector";
 import Link from "next/link";
+import { useRecoilValue } from "recoil";
 
 const ServiceDetailsBanner = () => {
+  const serviceData = useRecoilValue(serviceSelector);
   return (
     <section
       className="cmn-banner service-single-banner bg-img"
@@ -11,7 +14,7 @@ const ServiceDetailsBanner = () => {
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-5 col-xl-7">
             <div className="text-center text-lg-start">
-              <h2 className="title title-anim">Startup Funding</h2>
+              <h2 className="title title-anim">{serviceData.title}</h2>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
@@ -24,7 +27,7 @@ const ServiceDetailsBanner = () => {
                     <Link href="our-services">Our Services</Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                    Ux Design
+                    {serviceData.title}
                   </li>
                 </ol>
               </nav>

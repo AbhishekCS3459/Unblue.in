@@ -116,7 +116,7 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info@xpovio.com">
+                    <Link href="mailto:unblueconsultation@gmail.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
                      unblueconsultation@gmail.com
                     </Link>
@@ -157,7 +157,7 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info@xpovio.com">
+                    <Link href="mailto:unblueconsultation@gmail.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
                      unblueconsultation@gmail.com
                     </Link>
@@ -194,7 +194,7 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info@xpovio.com">
+                    <Link href="mailto:unblueconsultation@gmail.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
                      unblueconsultation@gmail.com
                     </Link>
