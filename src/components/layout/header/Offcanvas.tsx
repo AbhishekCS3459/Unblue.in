@@ -278,7 +278,8 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               <i className="fa-brands fa-linkedin-in"></i>
             </Link>
             <Link
-              href=" https://www.instagram.com/unblue.in" 
+            //done
+              href="https://www.instagram.com/unblue.in" 
               target="_blank"
               aria-label="share us on instagram"
             >

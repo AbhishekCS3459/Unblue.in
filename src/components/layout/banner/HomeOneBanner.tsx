@@ -102,7 +102,10 @@ const HomeOneBanner = () => {
           <Link href="tel:+91 72609 20637">Call : +91 72609 20637 </Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
-          <Link href=" https://www.instagram.com/unblue.in" target="_blank">
+          <Link 
+          //DONE
+          
+          href="https://www.instagram.com/unblue.in" target="_blank">
             instagram
           </Link>
           <Link

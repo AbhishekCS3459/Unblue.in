@@ -160,7 +160,9 @@ const FooterFive = () => {
                   <i className="fa-brands fa-linkedin-in"></i>
                   <span>Linkedin</span>
                 </Link>
-                <Link href=" https://www.instagram.com/unblue.in" target="_blank">
+                <Link 
+                //DONE
+                href="https://www.instagram.com/unblue.in" target="_blank">
                   <i className="fa-brands fa-instagram"></i>
                   <span>Instagram</span>
                 </Link>

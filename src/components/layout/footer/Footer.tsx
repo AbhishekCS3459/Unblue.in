@@ -131,7 +131,7 @@ const Footer = () => {
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
                     <Link
-                      href=" https://www.instagram.com/unblue.in"
+                      href="https://www.instagram.com/unblue.in"
                       target="_blank"
                     >
                       <i className="fa-brands fa-instagram"></i>

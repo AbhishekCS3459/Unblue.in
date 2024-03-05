@@ -144,7 +144,9 @@ const HomeThreeBanner = () => {
           <Link href="https://www.linkedin.com/company/unblue-consultation/"  target="_blank">
             <i className="fa-brands fa-linkedin-in"></i>
           </Link>
-          <Link href=" https://www.instagram.com/unblue.in" target="_blank">
+          <Link
+          //DONE
+          href="https://www.instagram.com/unblue.in" target="_blank">
             <i className="fa-brands fa-instagram"></i>
           </Link>
         </div>

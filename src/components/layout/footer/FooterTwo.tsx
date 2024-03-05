@@ -162,7 +162,8 @@ const FooterTwo = () => {
                   <span>Linkedin</span>
                 </Link>
                 <Link
-                  href=" https://www.instagram.com/unblue.in"
+                //DONE
+                  href="https://www.instagram.com/unblue.in"
                   target="_blank"
                 >
                   <i className="fa-brands fa-instagram"></i>
