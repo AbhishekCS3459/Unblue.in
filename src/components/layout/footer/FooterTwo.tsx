@@ -203,25 +203,6 @@ const FooterTwo = () => {
                 </p>
               </div>
             </div>
-            <div className="col-12 col-xl-6">
-              <ul className="justify-content-center justify-content-xl-end">
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
-                <li>
-                  <Link href="about-us">About</Link>
-                </li>
-                <li>
-                  <Link href="our-services">Services</Link>
-                </li>
-                <li>
-                  <Link href="blog">Blog</Link>
-                </li>
-                <li>
-                  <Link href="contact-us">Contact</Link>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
