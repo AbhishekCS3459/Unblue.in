@@ -57,11 +57,6 @@ const FooterFour = () => {
                 </Link>
               </li>
               <li>
-                <Link href="https://www.twitter.com/" target="_blank">
-                  Twitter
-                </Link>
-              </li>
-              <li>
                 <Link
                   href="https://www.instagram.com/unblue.in"
                   target="_blank"

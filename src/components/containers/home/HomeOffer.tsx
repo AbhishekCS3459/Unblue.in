@@ -13,7 +13,7 @@ const HomeOffer = () => {
   const [data, setData] = useRecoilState(serviceData);
   const linearGradient = {
     backgroundImage:
-      "linear-gradient(90deg, #ff7425 0%, rgba(255, 116, 37, 0) 60.08%)",
+      "linear-gradient(90deg, #44C3CF 0%, rgba(255, 116, 37, 0) 60.08%)",
     backgroundColor: "red",
     color: "black",
     fontWeight: "bold",

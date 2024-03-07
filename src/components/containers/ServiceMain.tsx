@@ -41,7 +41,8 @@ const ServiceMain = () => {
                   },
                 }}
               >
-                <SwiperSlide>
+                <SwiperSlide
+                >
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
                       <div className="intro">
@@ -161,12 +162,12 @@ const ServiceMain = () => {
                     <div className="service-t__slider-single">
                       <div className="intro">
                         <span className="sub-title">
-                          01
+                          04
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
                           <Link href="service-single">
-                           Growth Strategies{" "}
+                           Marketing and Branding{" "}
                           </Link>
                         </h4>
                       </div>
@@ -191,21 +192,20 @@ const ServiceMain = () => {
                     <div className="service-t__slider-single">
                       <div className="intro">
                         <span className="sub-title">
-                          02
+                          05
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
                           <Link href="service-single">
-                            Digital Transformation{" "}
+                            Comming Soon......
                           </Link>
                         </h4>
                       </div>
                       <ul>
-                        <li>Estimation</li>
-                        <li>Research</li>
-                        <li>Story board</li>
-                        <li>User Flow</li>
-                     
+                        <li>Updated Soon</li>
+                        <li>Updated Soon</li>
+                        <li>Updated Soon</li>
+                        <li>Updated Soon</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -216,12 +216,12 @@ const ServiceMain = () => {
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
                       <div className="intro">
                         <span className="sub-title">
-                          03
+                          02
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
@@ -249,7 +249,7 @@ const ServiceMain = () => {
                     <div className="service-t__slider-single">
                       <div className="intro">
                         <span className="sub-title">
-                          04
+                          03
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
@@ -271,7 +271,7 @@ const ServiceMain = () => {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
               </Swiper>
             </div>
           </div>

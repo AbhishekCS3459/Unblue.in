@@ -100,7 +100,8 @@ const WorkSteps = () => {
                   50
                   <br />%
                 </span>
-                <h5>Wireframes & User-flows</h5>
+                <h5
+                >Wireframes & User-flows</h5>
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{

@@ -26,7 +26,7 @@ const FooterTwo = () => {
         },
       });
 
-      const folksGradient = chroma.scale(["#ff7425", "#ffffff"]);
+      const folksGradient = chroma.scale(["#44C3CF", "#ffffff"]);
 
       animatedChars.forEach((charElement, index) => {
         const delay = index * 0.04;

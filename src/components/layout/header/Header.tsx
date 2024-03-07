@@ -5,6 +5,7 @@ import Link from "next/link";
 import logo from "public/images/logo.png";
 import logoLight from "public/images/logo-light.png";
 import Offcanvas from "./Offcanvas";
+import { scale } from "chroma-js";
 
 interface HeaderProps {
   openNav: boolean;
@@ -59,12 +60,13 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </Link>
                   </div>
                   <div className="navbar__options">
-                    <button
-                      className="open-offcanvas-nav d-flex"
-                      aria-label="toggle mobile menu"
-                      title="open offcanvas menu"
+                      <button
                       onClick={handleNav}
-                    ></button>
+                      >
+                        <i className="fa-sharp fa-solid fa-house"
+                        style={{transform: "scale(1.5)",marginRight: "10px"}}
+                        ></i>
+                      </button>
                   </div>
                 </nav>
               </div>

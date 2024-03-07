@@ -86,13 +86,6 @@ const TeamDetailsMain = () => {
                   <i className="fa-brands fa-facebook-f"></i>
                 </Link>
                 <Link
-                  href="https://www.twitter.com/"
-                  target="_blank"
-                  aria-label="share us on twitter"
-                >
-                  <i className="fa-brands fa-twitter"></i>
-                </Link>
-                <Link
                   href="https://www.pinterest.com/"
                   target="_blank"
                   aria-label="share us on pinterest"

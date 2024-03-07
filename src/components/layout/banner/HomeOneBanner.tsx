@@ -56,6 +56,7 @@ const HomeOneBanner = () => {
                   className="text-uppercase text-start fw-9 mb-0 title-anim"
                   style={{
                     pointerEvents: "none",
+                    textShadow: "0px 50px 50px black",
                   }}
                 >
                   We are
@@ -76,7 +77,7 @@ const HomeOneBanner = () => {
                       <p className="fw-5">years of experience</p>
                     </div>
                     <div className="single">
-                      <h5 className="fw-7">100</h5>
+                      <h5 className="fw-7">100+</h5>
                       <p className="fw-5">completed projects</p>
                     </div>
                   </div>

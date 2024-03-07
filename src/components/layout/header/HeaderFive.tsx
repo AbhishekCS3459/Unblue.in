@@ -86,11 +86,6 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link href="index-two">Digital Agency</Link>
                           </li>
-                          {/* <li>
-                            <Link href="index-two-light">
-                              Digital Agency Light
-                            </Link>
-                          </li> */}
                           <li>
                             <Link href="index-three">It Solution</Link>
                           </li>

@@ -41,13 +41,6 @@ const TeamMain = () => {
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link>
                     <Link
-                      href="https://www.twitter.com/"
-                      target="_blank"
-                      aria-label="share us on twitter"
-                    >
-                      <i className="fa-brands fa-twitter"></i>
-                    </Link>
-                    <Link
                       href="https://www.pinterest.com/"
                       target="_blank"
                       aria-label="share us on pinterest"
@@ -85,13 +78,6 @@ const TeamMain = () => {
                       aria-label="share us on facebook"
                     >
                       <i className="fa-brands fa-facebook-f"></i>
-                    </Link>
-                    <Link
-                      href="https://www.twitter.com/"
-                      target="_blank"
-                      aria-label="share us on twitter"
-                    >
-                      <i className="fa-brands fa-twitter"></i>
                     </Link>
                     <Link
                       href="https://www.pinterest.com/"
@@ -178,13 +164,7 @@ const TeamMain = () => {
                     >
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link>
-                    <Link
-                      href="https://www.twitter.com/"
-                      target="_blank"
-                      aria-label="share us on twitter"
-                    >
-                      <i className="fa-brands fa-twitter"></i>
-                    </Link>
+
                     <Link
                       href="https://www.pinterest.com/"
                       target="_blank"
@@ -197,7 +177,8 @@ const TeamMain = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-xl-4">
+          {/* uSER 5TH */}
+          {/* <div className="col-12 col-md-6 col-xl-4">
             <div className="team-m__single fade-top">
               <div className="thumb">
                 <Link href="team-single">
@@ -242,8 +223,9 @@ const TeamMain = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-12 col-md-6 col-xl-4">
+          </div> */}
+          {/* USER 6TH */}
+          {/* <div className="col-12 col-md-6 col-xl-4">
             <div className="team-m__single fade-top">
               <div className="thumb">
                 <Link href="team-single">
@@ -288,15 +270,16 @@ const TeamMain = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <div className="section__content-cta text-center">
               <button className="btn btn--secondary">Load More..</button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

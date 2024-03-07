@@ -101,13 +101,13 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                       <Link href="/">Creative Agency</Link>
                     </li>
 
-                    <li>
-                      <Link href="index-two">UI Work</Link>
-                    </li>
+                    {/* <li> */}
+                      {/* <Link href="index-two">UI Work</Link> */}
+                    {/* </li> */}
 
-                    <li>
-                      <Link href="index-three">It Solution</Link>
-                    </li>
+                    {/* <li> */}
+                      {/* <Link href="index-three">It Solution</Link> */}
+                    {/* </li> */}
 
                     <li>
                       <Link href="index-four">Personal Portfolio</Link>
@@ -116,9 +116,6 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                       <Link href="index-five">Work Samples</Link>
                     </li>
                   </ul>
-                </li>
-                <li className="navbar__item nav-fade">
-                  <Link href="about-us">About Us</Link>
                 </li>
                 <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
@@ -136,9 +133,9 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     <li>
                       <Link href="our-services">Our Services</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="service-single">Service Details</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="navbar__item navbar__item--has-children nav-fade">
@@ -157,10 +154,13 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     <li>
                       <Link href="our-projects">Our Projects</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="project-single">Project Details</Link>
-                    </li>
+                    </li> */}
                   </ul>
+                </li>
+                <li className="navbar__item nav-fade">
+                  <Link href="about-us">About Us</Link>
                 </li>
                 <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
@@ -176,9 +176,9 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     <li>
                       <Link href="faq">FAQ</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="our-story">Our Story</Link>
-                    </li>
+                    </li> */}
                     <li className="navbar__item navbar__item--has-children">
                       <button
                         aria-label="dropdown menu"
@@ -251,13 +251,13 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
             >
               <i className="fa-brands fa-facebook-f"></i>
             </Link>
-            <Link
+            {/* <Link
               href="https://www.twitter.com/"
               target="_blank"
               aria-label="share us on twitter"
             >
               <i className="fa-brands fa-twitter"></i>
-            </Link>
+            </Link> */}
             <Link
               href="https://www.linkedin.com/company/unblue-consultation/"
               target="_blank"

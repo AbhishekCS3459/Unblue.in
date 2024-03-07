@@ -64,12 +64,17 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link rel="stylesheet" href="service-single">
+                      Video Editing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link rel="stylesheet" href="service-single">
                       Content Creation
                     </Link>
                   </li>
                   <li>
                     <Link rel="stylesheet" href="service-single">
-                      Video Editing
+                      Marketing and Branding
                     </Link>
                   </li>
                   <li>
@@ -77,6 +82,7 @@ const Footer = () => {
                       Social Media Management
                     </Link>
                   </li>
+        
                 </ul>
                 {/* <p>
                   Welcome to our digital agency We specialize in helping
@@ -120,9 +126,7 @@ const Footer = () => {
                     {/* <Link href="https://www.facebook.com/" target="_blank">
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link> */}
-                    <Link href="https://www.twitter.com/" target="_blank">
-                      <i className="fa-brands fa-twitter"></i>
-                    </Link>
+
                     <Link
                       href="https://www.linkedin.com/company/unblue-consultation/"
                       target="_blank"
