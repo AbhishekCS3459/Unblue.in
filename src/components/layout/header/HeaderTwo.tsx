@@ -76,17 +76,11 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                               Creative Agency Light
                             </Link>
                           </li> */}
-                          <li>
-                            <Link href="index-two">Digital Agency</Link>
-                          </li>
                           {/* <li>
                             <Link href="index-two-light">
                               Digital Agency Light
                             </Link>
                           </li> */}
-                          <li>
-                            <Link href="index-three">It Solution</Link>
-                          </li>
                           {/* <li>
                             <Link href="index-three-light">
                               It Solution Light
@@ -125,9 +119,6 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link href="our-services">Our Services</Link>
                           </li>
-                          <li>
-                            <Link href="service-single">Service Details</Link>
-                          </li>
                         </ul>
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
@@ -141,9 +132,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link href="our-projects">Our Projects</Link>
                           </li>
-                          <li>
-                            <Link href="project-single">Project Details</Link>
-                          </li>
+
                         </ul>
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
@@ -157,9 +146,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link href="faq">FAQ</Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="our-story">Our Story</Link>
-                          </li>
+                          </li> */}
                           <li className="navbar__item navbar__item--has-children">
                             <button
                               aria-label="dropdown menu"
@@ -170,9 +159,6 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             <ul className="navbar__sub-menu navbar__sub-menu__nested">
                               <li>
                                 <Link href="our-teams">Our Teams</Link>
-                              </li>
-                              <li>
-                                <Link href="team-single">Team Details</Link>
                               </li>
                             </ul>
                           </li>

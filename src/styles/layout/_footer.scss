@@ -100,7 +100,7 @@
         transform: translate(-50%, -50%);
         width: 0px;
         height: 0px;
-        background-image: linear-gradient(180deg, #f90 0%, #ee332b 100%);
+        background-image:linear-gradient(90deg, rgba(27,174,177,1) 0%, rgba(7,255,200,1) 56%, rgba(0,192,255,1) 100%, rgb(0, 208, 255) 100%);
         transition: var(--transition);
         z-index: -1;
       }

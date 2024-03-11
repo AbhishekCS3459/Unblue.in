@@ -83,12 +83,12 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                               Creative Agency Light
                             </Link>
                           </li> */}
-                          <li>
+                          {/* <li>
                             <Link href="index-two">Digital Agency</Link>
                           </li>
                           <li>
                             <Link href="index-three">It Solution</Link>
-                          </li>
+                          </li> */}
                           {/* <li>
                             <Link href="index-three-light">
                               It Solution Light
@@ -126,9 +126,9 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link href="our-projects">Our Projects</Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="project-single">Project Details</Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </li>
                     </ul>

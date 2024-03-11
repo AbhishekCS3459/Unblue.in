@@ -14,7 +14,7 @@ const HomeOffer = () => {
   const linearGradient = {
     backgroundImage:
       "linear-gradient(90deg, #44C3CF 0%, rgba(255, 116, 37, 0) 60.08%)",
-    backgroundColor: "red",
+    backgroundColor: "#44C3CF",
     color: "black",
     fontWeight: "bold",
   };
@@ -68,7 +68,7 @@ const HomeOffer = () => {
                 </p>
               </div>
               <div className="section__content-cta">
-                <Link href="our-services" className="btn btn--secondary">
+                <Link href="our-services" className="btn btn--secondary" >
                   view all services
                 </Link>
               </div>
@@ -79,19 +79,24 @@ const HomeOffer = () => {
             <div className="offer__cta">
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
-                  ⭐<i className="fa-solid fa-arrow-right"></i>
+                  <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link
+                <div
+                  className="section__content-cta"
+                  style={{backgroundColor: "tranaparent", color: "white", padding: "10px", borderRadius: "30px", cursor: "pointer",border: "1px solid white",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0px 0px 5px 3px #b6f5f6"}}
+                  >
+                                      <Link  
                     href="service-single"
                     onClick={() => {
-                      setData(RawData.SMM);
+                      setData(RawData.VideoEditing);
                     }}
-                    style={{ color: "white" }}
+                    style={{ color: "white",fontSize:"40px",marginLeft:"10px" }}
                   >
-                    Social Media Management
+                    Video Editing
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
+                  </div>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={blogthumb} alt="Image" />
@@ -99,19 +104,23 @@ const HomeOffer = () => {
               </div>
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
-                  ⭐<i className="fa-solid fa-arrow-right"></i>
+                  <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link
+                  <div
+                  className="section__content-cta"
+                  style={{backgroundColor: "tranaparent", color: "white", padding: "10px", borderRadius: "30px", cursor: "pointer",border: "1px solid white",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0px 0px 5px 3px #b6f5f6"}}>
+                                   <Link
                     href="service-single"
                     onClick={() => {
-                      setData(RawData.Marketing);
+                      setData(RawData.Advertisement);
                     }}
-                    style={{ color: "white" }}
+                    style={{ color: "white",fontSize:"40px",marginLeft:"10px" }}
                   >
-                    Marketing & Branding
+                    Content Creation
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
+                  </div>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={two} alt="Image" />
@@ -119,19 +128,27 @@ const HomeOffer = () => {
               </div>
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
-                  ⭐<i className="fa-solid fa-arrow-right"></i>
+                  <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link
+                <div
+                  className="section__content-cta"
+                  
+                  
+                  style={{backgroundColor: "tranaparent", color: "white", padding: "10px", borderRadius: "30px", cursor: "pointer",border: "1px solid white",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0px 0px 5px 3px #b6f5f6"}}
+                  >
+                   <Link
                     href="service-single"
                     onClick={() => {
-                      setData(RawData.VideoEditing);
+                      setData(RawData.Marketing);
                     }}
-                    style={{ color: "white" }}
+                    style={{ color: "white",fontSize:"40px",marginLeft:"10px" }}
                   >
-                    Video Editing
+                    Marketing & Branding
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
+                  </div>
+          
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={three} alt="Image" />
@@ -139,19 +156,26 @@ const HomeOffer = () => {
               </div>
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
-                  ⭐<i className="fa-solid fa-arrow-right"></i>
+                  <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
+                <div
+                  className="section__content-cta"
+                  
+                  style={{backgroundColor: "tranaparent", color: "white", padding: "10px", borderRadius: "30px", cursor: "pointer",border: "1px solid white",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0px 0px 5px 3px #b6f5f6"}}
+                 >
+
                   <Link
                     href="service-single"
                     onClick={() => {
-                      setData(RawData.Advertisement);
+                      setData(RawData.SMM);
                     }}
-                    style={{ color: "white" }}
+                    style={{ color: "white",fontSize:"40px",marginLeft:"10px"}}
                   >
-                    Advertisement
-                    <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                    Social Media Management
+                    <i className="fa-sharp fa-solid fa-arrow-up-right" style={{marginRight:"10px"}}></i>
                   </Link>
+                  </div>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={blogthumb} alt="Image" />

@@ -63,22 +63,23 @@ const Footer = () => {
               <div className="footer__single-content">
                 <ul>
                   <li>
-                    <Link rel="stylesheet" href="service-single">
+                    <Link rel="stylesheet" href="video-editing"
+                    >
                       Video Editing
                     </Link>
                   </li>
                   <li>
-                    <Link rel="stylesheet" href="service-single">
+                    <Link rel="stylesheet" href="content-creation">
                       Content Creation
                     </Link>
                   </li>
                   <li>
-                    <Link rel="stylesheet" href="service-single">
+                    <Link rel="stylesheet" href="marketing-and-branding">
                       Marketing and Branding
                     </Link>
                   </li>
                   <li>
-                    <Link rel="stylesheet" href="service-single">
+                    <Link rel="stylesheet" href="social-media-management">
                       Social Media Management
                     </Link>
                   </li>
@@ -130,6 +131,7 @@ const Footer = () => {
                     <Link
                       href="https://www.linkedin.com/company/unblue-consultation/"
                       target="_blank"
+                      
                     >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
