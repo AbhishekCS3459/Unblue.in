@@ -18,7 +18,7 @@ export default function BookButton() {
           style={{
             color: "#000",
             fontWeight: "bolder",
-            fontFamily: "Poppins",
+            fontFamily: "sans-serif",
           }}
         >
           book a call now
