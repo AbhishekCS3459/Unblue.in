@@ -95,7 +95,7 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             </Link>
                           </li> */}
                           <li>
-                            <Link href="index-four">Personal Portfolio</Link>
+                            <Link href="personal-portfolio">Personal Portfolio</Link>
                           </li>
                           {/* <li>
                             <Link href="index-four-light">
@@ -103,7 +103,7 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             </Link>
                           </li> */}
                           <li>
-                            <Link href="index-five">Portfolio</Link>
+                            <Link href="work-samples">Portfolio</Link>
                           </li>
                           {/* <li>
                             <Link href="index-five-light">

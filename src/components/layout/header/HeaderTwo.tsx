@@ -87,7 +87,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             </Link>
                           </li> */}
                           <li>
-                            <Link href="index-four">Personal Portfolio</Link>
+                            <Link href="personal-portfolio">Personal Portfolio</Link>
                           </li>
                           {/* <li>
                             <Link href="index-four-light">
@@ -95,7 +95,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             </Link>
                           </li> */}
                           <li>
-                            <Link href="index-five">Work Samples</Link>
+                            <Link href="work-samples">Work Samples</Link>
                           </li>
                           
                           {/* <li>
@@ -105,9 +105,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           </li> */}
                         </ul>
                       </li>
-                      <li className="navbar__item nav-fade">
-                        <Link href="about-us">About Us</Link>
-                      </li>
+                   
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
@@ -134,6 +132,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           </li>
 
                         </ul>
+                      </li>
+                      <li className="navbar__item nav-fade">
+                        <Link href="about-us">About Us</Link>
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button

@@ -3,8 +3,23 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
+import toast, { Toaster } from "react-hot-toast";
 
 const ServiceMain = () => {
+  const notify = () => {
+    toast.success('Please Wait a Few Days.', {
+      style: {
+        border: '1px solid skyblue',
+        padding: '16px',
+        color: 'black',
+      },
+      iconTheme: {
+        primary: 'skyblue',
+        secondary: '#FFFAEE',
+      },
+    });
+    
+  };
   return (
     <section className="section service-t">
       <div className="container">
@@ -51,7 +66,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Content Creation</Link>
+                          <Link href="content-creation">Content Creation</Link>
                         </h4>
                       </div>
                       <ul>
@@ -62,7 +77,7 @@ const ServiceMain = () => {
                
                       </ul>
                       <div className="cta">
-                        <Link href="service-single">
+                        <Link href="content-creation">
                           <i className="icon-arrow-top-right"></i>
                           <span>service details</span>
                         </Link>
@@ -79,7 +94,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single"> Video Editing </Link>
+                          <Link href="video-editing"> Video Editing </Link>
                         </h4>
                       </div>
                       <ul>
@@ -90,7 +105,7 @@ const ServiceMain = () => {
                     
                       </ul>
                       <div className="cta">
-                        <Link href="service-single">
+                        <Link href="video-editing">
                           <i className="icon-arrow-top-right"></i>
                           <span>service details</span>
                         </Link>
@@ -107,7 +122,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">
+                          <Link href="social-media-management">
                             Social Media Management
                           </Link>
                         </h4>
@@ -120,7 +135,7 @@ const ServiceMain = () => {
                    
                       </ul>
                       <div className="cta">
-                        <Link href="service-single">
+                        <Link href="social-media-management">
                           <i className="icon-arrow-top-right"></i>
                           <span>service details</span>
                         </Link>
@@ -166,7 +181,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">
+                          <Link href="marketing-and-branding">
                            Marketing and Branding{" "}
                           </Link>
                         </h4>
@@ -179,7 +194,7 @@ const ServiceMain = () => {
           
                       </ul>
                       <div className="cta">
-                        <Link href="service-single">
+                        <Link href="marketing-and-branding">
                           <i className="icon-arrow-top-right"></i>
                           <span>service details</span>
                         </Link>
@@ -187,16 +202,19 @@ const ServiceMain = () => {
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                  <div className="service-t-single-wrapper">
+                <SwiperSlide onClick={notify}>
+                  <div className="service-t-single-wrapper" >
                     <div className="service-t__slider-single">
-                      <div className="intro">
+                      <div className="intro"
+                      >
                         <span className="sub-title">
                           05
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">
+                          <Link href="#"
+                          // onClick={notify}
+                          >
                             Comming Soon......
                           </Link>
                         </h4>
@@ -208,7 +226,8 @@ const ServiceMain = () => {
                         <li>Updated Soon</li>
                       </ul>
                       <div className="cta">
-                        <Link href="service-single">
+                        <Link href="service-single"
+                        >
                           <i className="icon-arrow-top-right"></i>
                           <span>service details</span>
                         </Link>
@@ -285,6 +304,9 @@ const ServiceMain = () => {
           <i className="fa-light fa-angle-right"></i>
         </button>
       </div>
+
+      <Toaster   position="top-right"
+  reverseOrder={false}/>
     </section>
   );
 };

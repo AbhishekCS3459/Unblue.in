@@ -38,10 +38,13 @@ const TeamMain = () => {
                       target="_blank"
                       aria-label="share us on facebook"
                     >
-                      <i className="fa-brands fa-facebook-f"></i>
+                      <i
+                        className="fa-brands fa-instagram"
+                        style={{ color: "white", fontWeight: "bolder" }}
+                      ></i>
                     </Link>
                     <Link
-                      href="https://www.pinterest.com/"
+                      href="https://www.linkedin.com/"
                       target="_blank"
                       aria-label="share us on pinterest"
                     >
@@ -77,7 +80,10 @@ const TeamMain = () => {
                       target="_blank"
                       aria-label="share us on facebook"
                     >
-                      <i className="fa-brands fa-facebook-f"></i>
+                      <i
+                        className="fa-brands fa-instagram"
+                        style={{ color: "white", fontWeight: "bolder" }}
+                      ></i>
                     </Link>
                     <Link
                       href="https://www.pinterest.com/"
@@ -111,19 +117,15 @@ const TeamMain = () => {
                   </h4>
                   <p>Senior engineer</p>
                   <div className="social-alt">
-                    <Link
+                  <Link
                       href="https://www.facebook.com/"
                       target="_blank"
                       aria-label="share us on facebook"
                     >
-                      <i className="fa-brands fa-facebook-f"></i>
-                    </Link>
-                    <Link
-                      href="https://www.twitter.com/"
-                      target="_blank"
-                      aria-label="share us on twitter"
-                    >
-                      <i className="fa-brands fa-twitter"></i>
+                      <i
+                        className="fa-brands fa-instagram"
+                        style={{ color: "white", fontWeight: "bolder" }}
+                      ></i>
                     </Link>
                     <Link
                       href="https://www.pinterest.com/"
@@ -157,12 +159,15 @@ const TeamMain = () => {
                   </h4>
                   <p>Senior engineer</p>
                   <div className="social-alt">
-                    <Link
+                  <Link
                       href="https://www.facebook.com/"
                       target="_blank"
                       aria-label="share us on facebook"
                     >
-                      <i className="fa-brands fa-facebook-f"></i>
+                      <i
+                        className="fa-brands fa-instagram"
+                        style={{ color: "white", fontWeight: "bolder" }}
+                      ></i>
                     </Link>
 
                     <Link
@@ -271,7 +276,6 @@ const TeamMain = () => {
               </div>
             </div>
           </div> */}
-
         </div>
         {/* <div className="row">
           <div className="col-12">

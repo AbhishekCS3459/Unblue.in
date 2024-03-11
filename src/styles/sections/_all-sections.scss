@@ -3285,9 +3285,10 @@
           top: 0px;
           left: 100%;
           bottom: 0px;
+         
           width: 60px;
           height: 100%;
-          background: linear-gradient(90deg, #f90 0%, #cc2500 100%);
+          background: linear-gradient(90deg, rgba(7, 129, 150, 0.979) 0%, #b6f5f1 100%);
           transition: all 0.4s ease-in-out;
           transition-delay: 0s;
           transform: translateY(100%);

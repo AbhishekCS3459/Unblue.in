@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import avatar from "public/images/testimonial/avatar.png";
 
@@ -152,13 +151,13 @@ const ClientFeedbackMain = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <div className="section__content-cta text-center">
               <button className="btn btn--secondary">Load More</button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

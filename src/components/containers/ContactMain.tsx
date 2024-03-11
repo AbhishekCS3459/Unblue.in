@@ -19,7 +19,14 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Phone </h4>
                 <p>
-                  <Link href="tel:197-90-56-780">Mobile :+91 72609 20637</Link>
+                  <Link href="tel:">
+                  <ul>
+                    <li>+91 72609 20637</li>
+                    <li>+91 9932908262</li>
+                  </ul>
+
+
+                  </Link>
                 </p>
               </div>
             </div>
@@ -87,7 +94,7 @@ const ContactMain = () => {
                     ></iframe>
                   </div>
                 </div>
-                <div className="col-12 col-lg-6">
+                {/* <div className="col-12 col-lg-6">
                   <div className="contact-main__form  fade-top">
                     <h3>Leave A Message</h3>
                     <form
@@ -136,7 +143,7 @@ const ContactMain = () => {
                       </div>
                     </form>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

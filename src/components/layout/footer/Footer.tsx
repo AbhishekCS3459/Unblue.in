@@ -22,7 +22,7 @@ const Footer = () => {
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
                   Haldia, West Bengal,India
                 </Link>
-                <Link href="tel:406-555-0120">
+                <Link href="tel:+91 72609 20637">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
                   +91 72609 20637
                 </Link>
@@ -31,11 +31,7 @@ const Footer = () => {
                   unblueconsultation@gmail.com
                 </Link>
               </div>
-              <div className="footer__cta text-start">
-                <Link href="contact-us" className="btn btn--secondary">
-                  book a call now
-                </Link>
-              </div>
+          
             </div>
           </div>
           <div className="col-12 col-lg-2 col-xl-2">
@@ -49,7 +45,7 @@ const Footer = () => {
                     <Link href="about-us">About Us</Link>
                   </li>
                   <li>
-                    <Link href="client-feedback">Award Winning</Link>
+                    <Link href="award-winnings">Award Winning</Link>
                   </li>
                 </ul>
               </div>
@@ -63,23 +59,26 @@ const Footer = () => {
               <div className="footer__single-content">
                 <ul>
                   <li>
-                    <Link rel="stylesheet" href="video-editing"
+                    <Link href="video-editing"
+                    onClick={()=>{
+                    
+                    }}
                     >
                       Video Editing
                     </Link>
                   </li>
                   <li>
-                    <Link rel="stylesheet" href="content-creation">
+                    <Link  href="content-creation">
                       Content Creation
                     </Link>
                   </li>
                   <li>
-                    <Link rel="stylesheet" href="marketing-and-branding">
+                    <Link  href="marketing-and-branding">
                       Marketing and Branding
                     </Link>
                   </li>
                   <li>
-                    <Link rel="stylesheet" href="social-media-management">
+                    <Link  href="social-media-management">
                       Social Media Management
                     </Link>
                   </li>
