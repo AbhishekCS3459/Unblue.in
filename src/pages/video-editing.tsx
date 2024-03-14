@@ -10,7 +10,7 @@ const ServiceDetails = () => {
     <Layout header={2} footer={5} video={false}>
       <ServiceDetailsBanner />
       <ServiceDetailsMain />
-      <UxProcess />
+      {/* <UxProcess /> */}
       <CtaTwo />
     </Layout>
   );
