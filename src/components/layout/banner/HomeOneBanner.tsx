@@ -61,7 +61,7 @@ const HomeOneBanner = () => {
                   }}
                 >
                   We are
-                  <span className="text-stroke">creative</span>
+                  <span className="text-stroke">{' '}creative</span>
                   <span className="interval">
                     <i className="icon-arrow-top-right"></i> digital agency
                   </span>
