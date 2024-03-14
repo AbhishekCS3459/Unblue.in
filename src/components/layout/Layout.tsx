@@ -178,7 +178,7 @@ const Layout = ({
           href="/images/favicon.png"
           type="image/x-icon"
         />
-        <title>Unblue| Digital & Marketing Agency </title>
+        <title>Unblue - Where Imagination Meets Innovation </title>
         <meta name="keywords" content="creative, agency, portfolio" />
         <meta name="description" content="Digital Agency Creative Portfolio" />
       </Head>

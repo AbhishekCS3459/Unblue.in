@@ -99,14 +99,18 @@ const Agency = () => {
                 WELCOME
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">
-                Unblue is your all-in-one solution for breaking the booundaries
-                fo tradational marketing and funding.
+              <h2
+                className="title title-anim"
+                style={{
+                  textAlign: "left",
+                  alignContent: "left",
+                  textTransform: "uppercase",
+                }}
+              >
+              Unblue: Redefining Digital Marketing Excellence with Innovation and Distinction.
               </h2>
               <div className="paragraph">
-                <p>
-                  {/* Write about it if possible  */}
-                </p>
+                <p>{/* Write about it if possible  */}</p>
               </div>
               <div className="skill-wrap">
                 <div className="skill-bar-single d-none">
@@ -121,36 +125,23 @@ const Agency = () => {
                     </div>
                   </div>
                 </div>
-                {/* Content Creation  */}
-                <div className="skill-bar-single">
-                  <div className="skill-bar-title">
-                    <p className="primary-text">Content Creation</p>
-                  </div>
-                  <div className="skill-bar-wrapper" data-percent="75%">
-                    <div className="skill-bar">
-                      <div className="skill-bar-percent">
-                        <span className="percent-value"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* Digital Marketing  */}
-                <div className="skill-bar-single">
-                  <div className="skill-bar-title">
-                    <p className="primary-text">Digital Marketing</p>
-                  </div>
-                  <div className="skill-bar-wrapper" data-percent="80%">
-                    <div className="skill-bar">
-                      <div className="skill-bar-percent">
-                        <span className="percent-value"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 {/* Vedio Editing  */}
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
                     <p className="primary-text">Vedio Editing</p>
+                  </div>
+                  <div className="skill-bar-wrapper" data-percent="90%">
+                    <div className="skill-bar">
+                      <div className="skill-bar-percent">
+                        <span className="percent-value"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* Content Creation  */}
+                <div className="skill-bar-single">
+                  <div className="skill-bar-title">
+                    <p className="primary-text">Content Creation</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="95%">
                     <div className="skill-bar">
@@ -160,12 +151,26 @@ const Agency = () => {
                     </div>
                   </div>
                 </div>
-                {/* Pitch Designing  */}
+                {/* Marketing & Branding  */}
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p className="primary-text">Pitch Designing</p>
+                    <p className="primary-text">Marketing & Branding</p>
                   </div>
-                  <div className="skill-bar-wrapper" data-percent="75%">
+                  <div className="skill-bar-wrapper" data-percent="85%">
+                    <div className="skill-bar">
+                      <div className="skill-bar-percent">
+                        <span className="percent-value"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Social Media Management Designing  */}
+                <div className="skill-bar-single">
+                  <div className="skill-bar-title">
+                    <p className="primary-text">Social Media Management</p>
+                  </div>
+                  <div className="skill-bar-wrapper" data-percent="95%">
                     <div className="skill-bar">
                       <div className="skill-bar-percent">
                         <span className="percent-value"></span>
