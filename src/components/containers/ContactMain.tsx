@@ -21,7 +21,7 @@ const ContactMain = () => {
                 <p>
                   <Link href="tel:">
                   <ul>
-                    <li>+91 6203390023</li>
+                    <li>+91 7260920637</li>
                     <li>+91 9932908262</li>
                   </ul>
 
