@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -67,18 +68,18 @@ const HomeOneBanner = () => {
                 </h1>
                 <div className="banner__content-inner">
                   <p>
-                    We are a full-service website design, development and
-                    digital marketing company specializing in SEO, content
-                    marketing that grows brands.
+                    We are a dynamic squad of passionate souls who are dedicated
+                    to accelerating brand's growth through the unlimited power
+                    of social media like Instagram, YouTube, LinkedIn and more.
                   </p>
                   <div className="cta section__content-cta">
                     <div className="single">
-                      <h5 className="fw-7">3+</h5>
-                      <p className="fw-5">years of experience</p>
+                      <h5 className="fw-7">2+</h5>
+                      <p className="fw-5">Years Of Experience</p>
                     </div>
                     <div className="single">
                       <h5 className="fw-7">100+</h5>
-                      <p className="fw-5">completed projects</p>
+                      <p className="fw-5">Completed Projects</p>
                     </div>
                   </div>
                 </div>
@@ -98,25 +99,24 @@ const HomeOneBanner = () => {
         <Image src={star} alt="Image" className="star" />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
           <Link href="mailto:unblueconsultation@gmail.com">
-            mail : unblueconsultation@gmail.com
+            Mail Us: unblueconsultation@gmail.com
           </Link>
           <Link href="tel:+91 72609 20637">Call : +91 72609 20637 </Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
-          <Link 
-          //DONE
-          
-          href="https://www.instagram.com/unblue.in" target="_blank">
-            instagram
+          <Link
+            //DONE
+
+            href="https://www.instagram.com/unblue.in"
+            target="_blank"
+          >
+            Instagram
           </Link>
           <Link
             href="https://www.linkedin.com/company/unblue-consultation/"
             target="_blank"
           >
-            Linkedin
-          </Link>
-          <Link href="https://www.facebook.com/" target="_blank">
-            facebook
+            LinkedIn
           </Link>
         </div>
         <button
