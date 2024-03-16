@@ -21,7 +21,7 @@ export default function BookButton() {
             fontFamily: "sans-serif",
           }}
         >
-          book a call now
+          Book A Free Call Now
         </Link>
       </div>
     </div>
