@@ -235,7 +235,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__options nav-fade">
             <div className="offcanvas__mobile-options d-flex">
               <Link
-                href="contact-us"
+                href="https://calendly.com/piyushraj_unblue/marketing-consultation"
                 className="btn btn--secondary"
                 target="_blank"
               >

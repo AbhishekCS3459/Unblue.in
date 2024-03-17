@@ -191,7 +191,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   <div className="navbar__options">
                     <div className="navbar__mobile-options d-none d-sm-flex">
-                      <Link href="https://calendly.com/piyushraj_unblue/30min" className="btn btn--secondary" target="_blank">
+                      <Link href="https://calendly.com/piyushraj_unblue/marketing-consultation" className="btn btn--secondary" target="_blank">
                         Let&apos;s Talk
                       </Link>
                     </div>

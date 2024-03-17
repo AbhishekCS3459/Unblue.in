@@ -77,7 +77,7 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </button>
                     <div className="tertiary-cta d-none d-sm-flex">
                       <div className="navbar__mobile-options">
-                        <Link href="contact-us" className="btn btn--secondary" target="_blank">
+                        <Link href="https://calendly.com/piyushraj_unblue/marketing-consultation" className="btn btn--secondary" target="_blank">
                           Let&apos;s Talk
                         </Link>
                       </div>
