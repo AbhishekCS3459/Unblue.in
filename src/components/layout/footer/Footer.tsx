@@ -86,6 +86,11 @@ const Footer = () => {
                       Social Media Management
                     </Link>
                   </li>
+                  <li>
+                    <Link  href="https://iri-s.com/">
+                      Fundraising Consultant
+                    </Link>
+                  </li>
                   {/* <li>
                     <Link  href="fundraising-consultant">
                       Fundraising Consultant

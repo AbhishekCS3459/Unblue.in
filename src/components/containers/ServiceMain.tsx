@@ -131,8 +131,8 @@ const ServiceMain = () => {
                       <ul>
                         <li>YouTube</li>
                         <li>Instagram</li>
-                        <li>Final Presentation</li>
-                        <li>Final Delivery</li>
+                        <li>LinkedIn</li>
+                        <li>And more...</li>
                    
                       </ul>
                       {/* <div className="cta">
