@@ -96,8 +96,8 @@ const Agency = () => {
           <div className="col-12 col-lg-6">
             <div className="agency__content section__content">
               <span className="sub-title">
-                WELCOME
-                <i className="fa-solid fa-arrow-right"></i>
+                Welcome
+                <i className="fa-solid fa-arrow-down"></i>
               </span>
               <h2
                 className="title title-anim"
@@ -128,7 +128,7 @@ const Agency = () => {
                 {/* Vedio Editing  */}
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p className="primary-text">Vedio Editing</p>
+                    <p className="primary-text">Video Editing</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="90%">
                     <div className="skill-bar">

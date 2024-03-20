@@ -109,9 +109,9 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                       {/* <Link href="index-three">It Solution</Link> */}
                     {/* </li> */}
 
-                    <li>
+                    {/* <li>
                       <Link href="personal-portfolio">Personal Portfolio</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="work-samples">Work Samples</Link>
                     </li>

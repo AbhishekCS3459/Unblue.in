@@ -13,7 +13,7 @@ const NextPageLight = () => {
             <div className="section__header text-center">
               <Link href="about-us" className="sub-title mb-0">
                 Next Page
-                <i className="fa-solid fa-arrow-right"></i>
+                <i className="fa-solid fa-arrow-down"></i>
               </Link>
             </div>
           </div>

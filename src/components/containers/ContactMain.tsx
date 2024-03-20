@@ -71,12 +71,28 @@ const ContactMain = () => {
               </div>
               <div className="content">
                 <h4>Office Hour</h4>
-                <p>Sun - Thu 09 am - 06pm</p>
-                <p>Fri - Sat 4 pm - 10pm</p>
+                <p>Mon - Sat: 09AM - 06PM</p>
+                <p>Sunday: 10AM - 4PM</p>
               </div>
             </div>
           </div>
         </div>
+        
+        <div className="footer__cta text-start ">
+        <Link
+          href="https://calendly.com/piyushraj_unblue/marketing-consultation"
+          className="btn btn--secondary custombtn"
+          style={{
+            color: "#000",
+            fontWeight: "bolder",
+            fontFamily: "sans-serif",
+          }}
+        >
+          Let&apos;s Connect
+        </Link>
+      </div>
+
+      
         <div className="row">
           <div className="col-12">
             <div className="map-wrapper">
@@ -94,6 +110,8 @@ const ContactMain = () => {
                     ></iframe>
                   </div>
                 </div>
+
+                
                 {/* <div className="col-12 col-lg-6">
                   <div className="contact-main__form  fade-top">
                     <h3>Leave A Message</h3>
@@ -148,6 +166,7 @@ const ContactMain = () => {
             </div>
           </div>
         </div>
+        
       </div>
     </section>
   );

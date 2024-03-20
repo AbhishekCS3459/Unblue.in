@@ -67,7 +67,7 @@ const HomeOffer = () => {
               </div>
               <div className="section__content-cta">
                 <Link href="our-services" className="btn btn--secondary" >
-                  view all services
+                  View All Services
                 </Link>
               </div>
             </div>

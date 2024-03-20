@@ -101,7 +101,7 @@ const HomeOneBanner = () => {
           <Link href="mailto:unblueconsultation@gmail.com">
             Mail Us: unblueconsultation@gmail.com
           </Link>
-          <Link href="tel:+91 72609 20637">Call : +91 72609 20637 </Link>
+          <Link href="tel:+91 72609 20637">Call : +91 72609 20637 / 99329 08262 </Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
           <Link

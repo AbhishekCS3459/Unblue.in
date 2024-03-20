@@ -86,9 +86,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                               It Solution Light
                             </Link>
                           </li> */}
-                          <li>
+                          {/* <li>
                             <Link href="personal-portfolio">Personal Portfolio</Link>
-                          </li>
+                          </li> */}
                           {/* <li>
                             <Link href="index-four-light">
                               Personal Portfolio Light
