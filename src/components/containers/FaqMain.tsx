@@ -33,7 +33,7 @@ const FaqMain = () => {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    I&apos;m a total beginner. Can I still follow along?
+                    I&apos;m a total beginner. How can I grow on social media?
                   </button>
                 </h5>
                 <div
@@ -46,10 +46,12 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                    Consistency is key.
+                    Start by posting regularly,
+                    engage with your audience authentically,
+                    and leverage trending hashtags and content
+                    formats to increase visibility. Experiment, learn,
+                    and refine your approach based on what resonates best with your audience
                     </p>
                   </div>
                 </div>
@@ -72,7 +74,7 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Will you be updating the program?
+                    What sets your agency apart form other?
                   </button>
                 </h5>
                 <div
@@ -85,10 +87,9 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                    We&apos;re not just trend-followers, we are trend-setters. 
+                    Our team constantly explores cutting-edge techniques, 
+                    ensuring your brand stays ahead of the curve and leaves a lasting impression.
                     </p>
                   </div>
                 </div>
@@ -111,7 +112,7 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Can I get an invoice for my purchase?
+                    Can you gurantee results?
                   </button>
                 </h5>
                 <div
@@ -124,10 +125,10 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                    While guarantees in the ever-evolving digital
+                    realm are rare, our track record speaks for itself.
+                    We promise unwavering dedication, 
+                    expertise, and a relentless drive to exceed your expectations
                     </p>
                   </div>
                 </div>
@@ -150,7 +151,7 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    What is global search engine optimization?
+                    How do you turn complex data into actionable insights?
                   </button>
                 </h5>
                 <div
@@ -163,10 +164,9 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                    We&apos;re not just data collectors; we are storytellers.
+                    We decode intricate data sets into actionable insights, crafting compelling narratives 
+                    that drive meaningful engagement and tangible results for your brand.
                     </p>
                   </div>
                 </div>

@@ -25,26 +25,26 @@ const TeamMain = () => {
                 >
                   <div className="info">
                     <p>
-                      “Lorem ipsum dolor sit amet consectetur adipiscing elit
+                      Myself Nilambar Giri. Fundraising Consultant 
                     </p>
                   </div>
                   <h4>
-                    <Link href="team-single">Sana p. Lesh</Link>
+                    <Link href="team-single">Nilambar Giri</Link>
                   </h4>
-                  <p>Senior engineer</p>
+                  <p>Founder</p>
                   <div className="social-alt">
                     <Link
-                      href="https://www.facebook.com/"
+                      href="https://www.instagram.com/nilambar_09/"
                       target="_blank"
                       aria-label="share us on facebook"
                     >
                       <i
-                        className="fa-brands fa-instagram"
+                        className="https://www.instagram.com/nilambar_09/"
                         style={{ color: "white", fontWeight: "bolder" }}
                       ></i>
                     </Link>
                     <Link
-                      href="https://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/nilambar-giri/"
                       target="_blank"
                       aria-label="share us on pinterest"
                     >
@@ -67,16 +67,16 @@ const TeamMain = () => {
                 >
                   <div className="info">
                     <p>
-                      “Lorem ipsum dolor sit amet consectetur adipiscing elit
+                     Myself Piyush Raj. Marketing Consultant
                     </p>
                   </div>
                   <h4>
-                    <Link href="team-single">Sana p. Lesh</Link>
+                    <Link href="team-single">Piyush Raj</Link>
                   </h4>
-                  <p>Senior engineer</p>
+                  <p>CMO & Co-founder</p>
                   <div className="social-alt">
                     <Link
-                      href="https://www.facebook.com/"
+                      href="https://www.instagram.com/rajpiyush29/"
                       target="_blank"
                       aria-label="share us on facebook"
                     >
@@ -86,7 +86,7 @@ const TeamMain = () => {
                       ></i>
                     </Link>
                     <Link
-                      href="https://www.pinterest.com/"
+                      href="https://www.linkedin.com/in/rajpiyush29/"
                       target="_blank"
                       aria-label="share us on pinterest"
                     >
@@ -109,16 +109,16 @@ const TeamMain = () => {
                 >
                   <div className="info">
                     <p>
-                      “Lorem ipsum dolor sit amet consectetur adipiscing elit
+                      Myself Abhijit Das. A professional video editor
                     </p>
                   </div>
                   <h4>
-                    <Link href="team-single">Sana p. Lesh</Link>
+                    <Link href="team-single">Abhijit Das</Link>
                   </h4>
-                  <p>Senior engineer</p>
+                  <p>Video Editor</p>
                   <div className="social-alt">
                   <Link
-                      href="https://www.facebook.com/"
+                      href="https://www.instagram.com/abhijit_das67_"
                       target="_blank"
                       aria-label="share us on facebook"
                     >
@@ -128,7 +128,7 @@ const TeamMain = () => {
                       ></i>
                     </Link>
                     <Link
-                      href="https://www.pinterest.com/"
+                      href="https://www.linkedin.com/in/abhijit-das67/"
                       target="_blank"
                       aria-label="share us on pinterest"
                     >
@@ -151,16 +151,16 @@ const TeamMain = () => {
                 >
                   <div className="info">
                     <p>
-                      “Lorem ipsum dolor sit amet consectetur adipiscing elit
+                      Myself Aquib Azmi. A professional video editor
                     </p>
                   </div>
                   <h4>
-                    <Link href="team-single">Sana p. Lesh</Link>
+                    <Link href="team-single">Aquib Azmi</Link>
                   </h4>
-                  <p>Senior engineer</p>
+                  <p>Video Editor </p>
                   <div className="social-alt">
                   <Link
-                      href="https://www.facebook.com/"
+                      href="https://www.instagram.com/the_azmiicreations"
                       target="_blank"
                       aria-label="share us on facebook"
                     >
@@ -171,7 +171,7 @@ const TeamMain = () => {
                     </Link>
 
                     <Link
-                      href="https://www.pinterest.com/"
+                      href="https://www.linkedin.com/in/aquibtheazmi001"
                       target="_blank"
                       aria-label="share us on pinterest"
                     >

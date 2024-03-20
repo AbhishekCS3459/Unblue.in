@@ -43,10 +43,11 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
                 <p className="primary-text">
-                  UNBLUE is your all-in-one solution for breaking the boundaries
-                  of traditional marketing and funding. Our suite of services
-                  encompasses: Content Creation & Video Editing - Crafting
-                  stories that captivate, engage, and inspire action.
+                Are you worried about your brand&apos;s growth?
+                It&apos;s the right time to turn that worry into 
+                excitement.Welcome to Unblue - where imagination meets innovations.
+                We don&apos;t just offer solutions- we poineer them.
+              
                 </p>
               </div>
             </div>

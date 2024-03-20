@@ -76,12 +76,12 @@ const ServiceMain = () => {
                         <li>Idea Validation</li>
                
                       </ul>
-                      <div className="cta">
+                      {/* <div className="cta">
                         <Link href="content-creation">
                           <i className="icon-arrow-top-right"></i>
                           <span>service details</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </SwiperSlide>
@@ -98,18 +98,19 @@ const ServiceMain = () => {
                         </h4>
                       </div>
                       <ul>
-                        <li>Estimation</li>
-                        <li>Research</li>
-                        <li>Story board</li>
-                        <li>User Flow</li>
+                      <li>Shorts & Reels </li>
+                        <li>Animated Video</li>
+                        <li>Corporate Video</li>
+                        <li>Documentary Video</li>
+                        
                     
                       </ul>
-                      <div className="cta">
+                      {/* <div className="cta">
                         <Link href="video-editing">
                           <i className="icon-arrow-top-right"></i>
                           <span>service details</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </SwiperSlide>
@@ -128,18 +129,18 @@ const ServiceMain = () => {
                         </h4>
                       </div>
                       <ul>
-                        <li>Navigating Digital Space</li>
-                        <li>Design System</li>
+                        <li>YouTube</li>
+                        <li>Instagram</li>
                         <li>Final Presentation</li>
                         <li>Final Delivery</li>
                    
                       </ul>
-                      <div className="cta">
+                      {/* <div className="cta">
                         <Link href="social-media-management">
                           <i className="icon-arrow-top-right"></i>
                           <span>service details</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </SwiperSlide>
@@ -187,18 +188,18 @@ const ServiceMain = () => {
                         </h4>
                       </div>
                       <ul>
-                        <li>Define Idea</li>
-                        <li>Competitor Reserach</li>
-                        <li>Target Audience</li>
-                        <li>Idea Validation</li>
+                        <li>Define Identity</li>
+                        <li>Brand Perception</li>
+                        <li>Values & Promise</li>
+                        <li>Experiecnce</li>
           
                       </ul>
-                      <div className="cta">
+                      {/* <div className="cta">
                         <Link href="marketing-and-branding">
                           <i className="icon-arrow-top-right"></i>
                           <span>service details</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </SwiperSlide>
@@ -225,13 +226,13 @@ const ServiceMain = () => {
                         <li>Updated Soon</li>
                         <li>Updated Soon</li>
                       </ul>
-                      <div className="cta">
+                      {/* <div className="cta">
                         <Link href="service-single"
                         >
                           <i className="icon-arrow-top-right"></i>
                           <span>service details</span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </SwiperSlide>
