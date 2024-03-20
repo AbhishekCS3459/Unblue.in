@@ -94,9 +94,9 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                               It Solution Light
                             </Link>
                           </li> */}
-                          <li>
+                          {/* <li>
                             <Link href="personal-portfolio">Personal Portfolio</Link>
-                          </li>
+                          </li> */}
                           {/* <li>
                             <Link href="index-four-light">
                               Personal Portfolio Light
@@ -135,7 +135,7 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   <div className="navbar__options">
                     <div className="navbar__mobile-options d-none d-sm-flex">
-                      <Link href="contact-us" className="btn btn--secondary">
+                      <Link href="https://calendly.com/piyushraj_unblue/marketing-consultation" className="btn btn--secondary">
                         Let&apos;s Talk
                       </Link>
                     </div>

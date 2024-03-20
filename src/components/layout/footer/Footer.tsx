@@ -45,6 +45,9 @@ const Footer = () => {
                     <Link href="about-us">About Us</Link>
                   </li>
                   <li>
+                    <Link href="contact-us">Contact Us</Link>
+                  </li>
+                  <li>
                     <Link href="award-winnings">Award Winning</Link>
                   </li>
                 </ul>
@@ -74,15 +77,25 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link  href="marketing-and-branding">
-                      Marketing and Branding
+                      Marketing & Branding
                     </Link>
                   </li>
+               
                   <li>
                     <Link  href="social-media-management">
                       Social Media Management
                     </Link>
                   </li>
-        
+                  <li>
+                    <Link  href="https://iri-s.com/">
+                      Fundraising Consultant
+                    </Link>
+                  </li>
+                  {/* <li>
+                    <Link  href="fundraising-consultant">
+                      Fundraising Consultant
+                    </Link>
+                  </li>  */}
                 </ul>
                 {/* <p>
                   Welcome to our digital agency We specialize in helping

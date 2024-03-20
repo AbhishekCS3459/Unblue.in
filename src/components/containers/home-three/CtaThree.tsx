@@ -15,10 +15,10 @@ const CtaThree = () => {
                 <div className="col-12 col-lg-8">
                   <div className="cta-two__content">
                     <span>Hello !</span>
-                    <h2 className="title-anim">ready to work with us?</h2>
+                    <h2 className="title-anim">Ready To Transform Your Brand?</h2>
                     <h5>
                       <Link href="tel:+91 72609 20637">
-                      call: +91 72609 20637
+                      Call: +91 72609 20637
                       </Link>
                     </h5>
                   </div>

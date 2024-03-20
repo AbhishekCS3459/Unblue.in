@@ -60,8 +60,8 @@ const HomeOneBanner = () => {
                     textShadow: "0px 50px 50px black",
                   }}
                 >
-                  We are
-                  <span className="text-stroke">{' '}creative</span>
+                  A creative &
+                  <span className="text-stroke">{' '}Innovative </span>
                   <span className="interval">
                     <i className="icon-arrow-top-right"></i> digital agency
                   </span>
@@ -101,7 +101,7 @@ const HomeOneBanner = () => {
           <Link href="mailto:unblueconsultation@gmail.com">
             Mail Us: unblueconsultation@gmail.com
           </Link>
-          <Link href="tel:+91 72609 20637">Call : +91 72609 20637 </Link>
+          <Link href="tel:+91 72609 20637">Call : +91 72609 20637 / 99329 08262 </Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
           <Link

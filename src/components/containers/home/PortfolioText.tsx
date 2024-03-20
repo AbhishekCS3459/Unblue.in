@@ -37,7 +37,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  digital portfolio
+                  Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -47,7 +47,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
-                  digital portfolio
+                  Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -57,7 +57,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  digital portfolio
+                  Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -67,7 +67,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
-                  digital portfolio
+                  Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -77,7 +77,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  digital portfolio
+                  Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -87,7 +87,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
                 <Link href="portfolio">
-                  digital portfolio
+                  Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -97,7 +97,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  digital portfolio
+                  Portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>

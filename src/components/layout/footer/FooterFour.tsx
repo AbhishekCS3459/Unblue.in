@@ -34,7 +34,7 @@ const FooterFour = () => {
               <div className="row justify-content-center cta-t section__content-cta">
                 <div className="col-12 col-md-8">
                   <h3>
-                    <Link href="contact-us">
+                    <Link href="https://calendly.com/piyushraj_unblue/marketing-consultation">
                       Let&apos;s Talk
                       <i className="fa-regular fa-comment-dots"></i>
                     </Link>

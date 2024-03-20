@@ -13,7 +13,7 @@ export default function BookButton() {
     >
       <div className="footer__cta text-start ">
         <Link
-          href="contact-us"
+          href="https://calendly.com/piyushraj_unblue/marketing-consultation"
           className="btn btn--secondary custombtn"
           style={{
             color: "#000",
@@ -21,7 +21,7 @@ export default function BookButton() {
             fontFamily: "sans-serif",
           }}
         >
-          book a call now
+          Book A Free Call Now
         </Link>
       </div>
     </div>

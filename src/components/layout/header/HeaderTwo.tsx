@@ -86,17 +86,17 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                               It Solution Light
                             </Link>
                           </li> */}
-                          <li>
+                          {/* <li>
                             <Link href="personal-portfolio">Personal Portfolio</Link>
-                          </li>
+                          </li> */}
                           {/* <li>
                             <Link href="index-four-light">
                               Personal Portfolio Light
                             </Link>
                           </li> */}
-                          <li>
+                          {/* <li>
                             <Link href="work-samples">Work Samples</Link>
-                          </li>
+                          </li> */}
                           
                           {/* <li>
                             <Link href="index-five-light">
@@ -136,16 +136,19 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <li className="navbar__item nav-fade">
                         <Link href="about-us">About Us</Link>
                       </li>
+                      <li className="navbar__item nav-fade">
+                        <Link href="https://iri-s.com/">Fundraising Consultant</Link>
+                      </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          Inquiry
+                          FAQs & Team
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="faq">FAQ</Link>
+                            <Link href="faq">FAQs</Link>
                           </li>
                           {/* <li>
                             <Link href="our-story">Our Story</Link>
@@ -163,9 +166,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                               </li>
                             </ul>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="client-feedback">Client FeedBack</Link>
-                          </li>
+                          </li> */}
                           <li>
                             <Link href="contact-us">Contact Us</Link>
                           </li>
@@ -191,7 +194,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   <div className="navbar__options">
                     <div className="navbar__mobile-options d-none d-sm-flex">
-                      <Link href="https://calendly.com/piyushraj_unblue/30min" className="btn btn--secondary" target="_blank">
+                      <Link href="https://calendly.com/piyushraj_unblue/marketing-consultation" className="btn btn--secondary" target="_blank">
                         Let&apos;s Talk
                       </Link>
                     </div>

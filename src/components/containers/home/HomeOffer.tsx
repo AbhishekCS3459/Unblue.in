@@ -51,25 +51,23 @@ const HomeOffer = () => {
                 className="sub-title"
                 style={linearGradient}
               >
-                WHAT WE OFFER
+                What We Offer
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                Giving Your Business Some Great Ideas
+              We don&apos;t just offer services. we provide solutions that transform brands.
               </h2>
               <div className="paragraph">
                 <p
                 >
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined cloud solution going forward
-                  porttitor dictum sapien.
+                 Fulfill your ambitions with our innovative solutions. 
+                 From concept to execution, we are here to turn your vision into reality. 
+                 Explore our offerings and let&apos;s create greatness together!
                 </p>
               </div>
               <div className="section__content-cta">
                 <Link href="our-services" className="btn btn--secondary" >
-                  view all services
+                  View All Services
                 </Link>
               </div>
             </div>

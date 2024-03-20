@@ -15,18 +15,18 @@ const CtaTwo = () => {
                 <div className="col-12 col-lg-8">
                   <div className="cta-two__content">
                     <span>Hello !</span>
-                    <h2 className="title-anim">ready to work with us?</h2>
-                    <h5>
+                    <h2 className="title-anim">Are You Ready To Transform Your Brand?</h2>
+                    {/* <h5>
                       <Link href="tel:+91 72609 20637">
                         call: +91 72609 20637
                       </Link>
-                    </h5>
+                    </h5> */}
                   </div>
                 </div>
                 <div className="col-12 col-lg-4">
                   <div className="text-start text-lg-end">
-                    <Link href="contact-us" className="btn btn--tertiary">
-                      start a project
+                    <Link href="https://calendly.com/piyushraj_unblue/marketing-consultation" className="btn btn--tertiary">
+                      Book A Free Call Now
                       <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                     </Link>
                   </div>

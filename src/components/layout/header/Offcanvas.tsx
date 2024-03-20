@@ -109,12 +109,12 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                       {/* <Link href="index-three">It Solution</Link> */}
                     {/* </li> */}
 
-                    <li>
+                    {/* <li>
                       <Link href="personal-portfolio">Personal Portfolio</Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link href="work-samples">Work Samples</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="navbar__item navbar__item--has-children nav-fade">
@@ -162,6 +162,9 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                 <li className="navbar__item nav-fade">
                   <Link href="about-us">About Us</Link>
                 </li>
+                <li className="navbar__item nav-fade">
+                        <Link href="https://iri-s.com/">Fundraising Consultant</Link>
+                      </li>
                 <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
                     aria-label="dropdown menu"
@@ -170,11 +173,11 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     )}`}
                     onClick={() => handleSubmenu("pages")}
                   >
-                    FAQs & Stories
+                    FAQs & Team
                   </button>
                   <ul className={`navbar__sub-menu ${isSubMenuOpen("pages")}`}>
                     <li>
-                      <Link href="faq">FAQ</Link>
+                      <Link href="faq">FAQs</Link>
                     </li>
                     {/* <li>
                       <Link href="our-story">Our Story</Link>
@@ -202,9 +205,9 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                         </li>
                       </ul>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="client-feedback">Client FeedBack</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="contact-us">Contact Us</Link>
                     </li>
@@ -235,7 +238,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__options nav-fade">
             <div className="offcanvas__mobile-options d-flex">
               <Link
-                href="contact-us"
+                href="https://calendly.com/piyushraj_unblue/marketing-consultation"
                 className="btn btn--secondary"
                 target="_blank"
               >
