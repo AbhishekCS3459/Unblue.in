@@ -99,7 +99,7 @@ const Agency = () => {
                 Welcome
                 <i className="fa-solid fa-arrow-down"></i>
               </span>
-              <h2
+              <h3
                 className="title title-anim"
                 style={{
                   textAlign: "left",
@@ -107,8 +107,9 @@ const Agency = () => {
                   textTransform: "uppercase",
                 }}
               >
-              Unblue: Redefining Digital Marketing Excellence with Innovation and Distinction.
-              </h2>
+              Unblue is committed to breaking barrier and
+              revolutionizing digital marketing norms.
+              </h3>
               <div className="paragraph">
                 <p>{/* Write about it if possible  */}</p>
               </div>

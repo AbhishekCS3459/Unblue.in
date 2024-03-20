@@ -86,11 +86,11 @@ const Footer = () => {
                       Social Media Management
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link  href="fundraising-consultant">
                       Fundraising Consultant
                     </Link>
-                  </li> 
+                  </li>  */}
                 </ul>
                 {/* <p>
                   Welcome to our digital agency We specialize in helping
