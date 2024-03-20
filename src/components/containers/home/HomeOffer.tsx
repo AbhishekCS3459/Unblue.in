@@ -55,12 +55,12 @@ const HomeOffer = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                UNBLUE provides you one stop solution for all your digital needs.
+              We don&apos;t just offer services. we provide solutions that transform brands.
               </h2>
               <div className="paragraph">
                 <p
                 >
-                 Fulfill your ambitions with our innovative solutions and personalized services. 
+                 Fulfill your ambitions with our innovative solutions. 
                  From concept to execution, we are here to turn your vision into reality. 
                  Explore our offerings and let&apos;s create greatness together!
                 </p>

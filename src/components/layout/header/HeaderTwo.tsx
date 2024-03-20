@@ -94,9 +94,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                               Personal Portfolio Light
                             </Link>
                           </li> */}
-                          <li>
+                          {/* <li>
                             <Link href="work-samples">Work Samples</Link>
-                          </li>
+                          </li> */}
                           
                           {/* <li>
                             <Link href="index-five-light">
@@ -141,11 +141,11 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          Inquiry
+                          FAQs & Team
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="faq">FAQ</Link>
+                            <Link href="faq">FAQs</Link>
                           </li>
                           {/* <li>
                             <Link href="our-story">Our Story</Link>
@@ -163,9 +163,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                               </li>
                             </ul>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="client-feedback">Client FeedBack</Link>
-                          </li>
+                          </li> */}
                           <li>
                             <Link href="contact-us">Contact Us</Link>
                           </li>
