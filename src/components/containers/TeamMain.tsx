@@ -35,19 +35,19 @@ const TeamMain = () => {
                   <p>Founder</p>
                   <div className="social-alt">
                     <Link
+                      className="fa-brands fa-instagram"
                       href="https://www.instagram.com/nilambar_09/"
                       target="_blank"
-                      aria-label="share us on facebook"
+                      aria-label="share us on instagram"
                     >
                       <i
-                        className="https://www.instagram.com/nilambar_09/"
                         style={{ color: "white", fontWeight: "bolder" }}
                       ></i>
                     </Link>
                     <Link
                       href="https://www.linkedin.com/in/nilambar-giri/"
                       target="_blank"
-                      aria-label="share us on pinterest"
+                      aria-label="share us on linkedin"
                     >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
@@ -77,7 +77,7 @@ const TeamMain = () => {
                     <Link
                       href="https://www.instagram.com/rajpiyush29/"
                       target="_blank"
-                      aria-label="share us on facebook"
+                      aria-label="share us on instagram"
                     >
                       <i
                         className="fa-brands fa-instagram"
@@ -87,7 +87,7 @@ const TeamMain = () => {
                     <Link
                       href="https://www.linkedin.com/in/rajpiyush29/"
                       target="_blank"
-                      aria-label="share us on pinterest"
+                      aria-label="share us on linkedin"
                     >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
@@ -117,7 +117,7 @@ const TeamMain = () => {
                     <Link
                       href="https://www.instagram.com/abhijit_das67_"
                       target="_blank"
-                      aria-label="share us on facebook"
+                      aria-label="share us on instagram"
                     >
                       <i
                         className="fa-brands fa-instagram"
@@ -127,7 +127,7 @@ const TeamMain = () => {
                     <Link
                       href="https://www.linkedin.com/in/abhijit-das67/"
                       target="_blank"
-                      aria-label="share us on pinterest"
+                      aria-label="share us on linkedin"
                     >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
@@ -157,7 +157,7 @@ const TeamMain = () => {
                     <Link
                       href="https://www.instagram.com/the_azmiicreations"
                       target="_blank"
-                      aria-label="share us on facebook"
+                      aria-label="share us on instagram"
                     >
                       <i
                         className="fa-brands fa-instagram"
@@ -168,7 +168,7 @@ const TeamMain = () => {
                     <Link
                       href="https://www.linkedin.com/in/aquibtheazmi001"
                       target="_blank"
-                      aria-label="share us on pinterest"
+                      aria-label="share us on linkedin"
                     >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
@@ -201,7 +201,7 @@ const TeamMain = () => {
                     <Link
                       href="https://www.facebook.com/"
                       target="_blank"
-                      aria-label="share us on facebook"
+                      aria-label="share us on instagram"
                     >
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link>
@@ -215,7 +215,7 @@ const TeamMain = () => {
                     <Link
                       href="https://www.pinterest.com/"
                       target="_blank"
-                      aria-label="share us on pinterest"
+                      aria-label="share us on linkedin"
                     >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
@@ -248,7 +248,7 @@ const TeamMain = () => {
                     <Link
                       href="https://www.facebook.com/"
                       target="_blank"
-                      aria-label="share us on facebook"
+                      aria-label="share us on instagram"
                     >
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link>
@@ -262,7 +262,7 @@ const TeamMain = () => {
                     <Link
                       href="https://www.pinterest.com/"
                       target="_blank"
-                      aria-label="share us on pinterest"
+                      aria-label="share us on linkedin"
                     >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>

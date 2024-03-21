@@ -133,24 +133,32 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           </li>
                         </ul>
                       </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
+                      {/* <li className="navbar__item navbar__item--has-children nav-fade"> */}
+                      <li className="navbar__item nav-fade m-lg-4">
                         <Link
                           href="https://iri-s.com/"
                           aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                          
+                          className="navbar__dropdown-label"  
                         >
                           Fundraising Consultant
                         </Link>
-                        <ul className="navbar__sub-menu">
+                        {/* <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-projects">Our Projects</Link>
+                            <Link href="https://iri-s.com/">Connect Now </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
 
-                      <li className="navbar__item nav-fade m-lg-2">
-                        <Link href="about-us">About Us</Link>
+                      <li className="navbar__item nav-fade m-lg-4">
+                      
+                      <Link
+                          href="about-us"
+                          aria-label="dropdown menu"
+                          className="navbar__dropdown-label"  
+                        >
+                          About Us
+                        </Link>
+                        {/* <Link href="about-us">About Us</Link> */}
                       </li>
 
                       <li className="navbar__item navbar__item--has-children nav-fade">
@@ -158,7 +166,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          Explore
+                          FAQs & Team
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>

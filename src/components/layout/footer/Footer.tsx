@@ -91,11 +91,7 @@ const Footer = () => {
                       Fundraising Consultant
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link  href="fundraising-consultant">
-                      Fundraising Consultant
-                    </Link>
-                  </li>  */}
+                
                 </ul>
                 {/* <p>
                   Welcome to our digital agency We specialize in helping

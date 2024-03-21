@@ -13,8 +13,8 @@ const HomeOffer = () => {
   const [data, setData] = useRecoilState(serviceData);
   const linearGradient = {
     backgroundImage:
-      "linear-gradient(90deg, #44C3CF 0%, rgba(255, 116, 37, 0) 60.08%)",
-    backgroundColor: "#44C3CF",
+      "linear-gradient(90deg, #00cb7e 15%, rgba(255, 116, 37, 0) 60.08%)",
+    backgroundColor: "#08A9F3",
     color: "black",
     fontWeight: "bold",
   };
@@ -49,8 +49,9 @@ const HomeOffer = () => {
           <div className="col-12 col-lg-5 ">
             <div className="offer__content section__content">
               <span className="sub-title" style={linearGradient}>
-                What We Offer
+               What We Offer
                 <i className="fa-solid fa-arrow-right"></i>
+
               </span>
               <h2 className="title title-anim">
                 We don&apos;t just offer services. we provide solutions that
@@ -70,6 +71,7 @@ const HomeOffer = () => {
                   href="our-services"
                   className="btn btn--secondary"
                   style={{
+                    background:"#006BFA",
                     outline: "blue",
                     stroke: "blue",
                     border: "blue 1px solid",
