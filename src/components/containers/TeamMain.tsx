@@ -67,7 +67,7 @@ const TeamMain = () => {
                   style={{ backgroundImage: "url('/images/teams/Piyush.png')" }}
                 >
                   <div className="info">
-                    <p>Myself Piyush Raj. Marketing Consultant</p>
+                    <p>This is Piyush Raj. Marketing Consultant</p>
                   </div>
                   <h4>
                     <Link href="team-single">Piyush Raj</Link>
