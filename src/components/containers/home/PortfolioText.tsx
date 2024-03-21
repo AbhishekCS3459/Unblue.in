@@ -12,113 +12,46 @@ import five from "public/images/portfolio/five.png";
 import six from "public/images/portfolio/six.png";
 import seven from "public/images/portfolio/seven.png";
 import dot from "public/images/portfolio/dot.png";
+import TextSlider from "./TextSlider";
 
 const PortfolioText = () => {
   const [hover, setHover] = useState(0);
   return (
-    <section className="section portfolio pb-0 fade-wrapper position-relative">
-      <div className="portfolio__text-slider-w">
-        <Swiper
-          slidesPerView="auto"
-          spaceBetween={40}
-          speed={5000}
-          loop={true}
-          centeredSlides={true}
-          modules={[Autoplay]}
-          autoplay={{
-            delay: 1,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-            reverseDirection: false,
-          }}
-          className="portfolio__text-slider"
-        >
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1">
-                <Link href="portfolio">
-                  Portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1 str">
-                <Link href="portfolio">
-                  Portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1">
-                <Link href="portfolio">
-                  Portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1 str">
-                <Link href="portfolio">
-                  Portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1">
-                <Link href="portfolio">
-                  Portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1 str">
-                <Link href="portfolio">
-                  Portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1">
-                <Link href="portfolio">
-                  Portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-        </Swiper>
-      </div>
+    <section
+      className="section portfolio pb-0 fade-wrapper position-relative"
+      style={{
+        marginBottom: "25px",
+      }}
+    >
+      <TextSlider TextMessage="Portfolio" />
       <div className="container-fluid">
         <div className="row gaper">
-          <div className="col-12 col-sm-6 col-xl-3">
+          <div
+            className="col-12 col-sm-6 col-xl-3"
+            style={{
+              borderRadius: "50px",
+            }}
+          >
             <div
               className={
                 "portfolio__single topy-tilt fade-top" +
                 (hover === 0 ? " portfolio__single-active" : " ")
               }
               onMouseEnter={() => setHover(0)}
+              style={{
+                borderRadius: "25px",
+              }}
             >
               <Link href="portfolio">
                 <Image src={one} alt="Image" />
               </Link>
-              <div className="portfolio__single-content">
+              <div
+                className="portfolio__single-content"
+                style={{
+                  backgroundColor: "transparent",
+                  color: "white",
+                }}
+              >
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
@@ -128,18 +61,32 @@ const PortfolioText = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          <div
+            className="col-12 col-sm-6 col-xl-3"
+            style={{
+              borderRadius: "25px",
+            }}
+          >
             <div
               className={
                 "portfolio__single topy-tilt fade-top" +
                 (hover === 1 ? " portfolio__single-active" : " ")
               }
               onMouseEnter={() => setHover(1)}
+              style={{
+                borderRadius: "25px",
+              }}
             >
               <Link href="portfolio">
                 <Image src={two} alt="Image" />
               </Link>
-              <div className="portfolio__single-content">
+              <div
+                className="portfolio__single-content"
+                style={{
+                  backgroundColor: "transparent",
+                  color: "white",
+                }}
+              >
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
@@ -149,18 +96,32 @@ const PortfolioText = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          <div
+            className="col-12 col-sm-6 col-xl-3"
+            style={{
+              borderRadius: "25px",
+            }}
+          >
             <div
               className={
                 "portfolio__single topy-tilt fade-top" +
                 (hover === 2 ? " portfolio__single-active" : " ")
               }
               onMouseEnter={() => setHover(2)}
+              style={{
+                borderRadius: "25px",
+              }}
             >
               <Link href="portfolio">
                 <Image src={three} alt="Image" />
               </Link>
-              <div className="portfolio__single-content">
+              <div
+                className="portfolio__single-content"
+                style={{
+                  backgroundColor: "transparent",
+                  color: "white",
+                }}
+              >
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
@@ -233,8 +194,18 @@ const PortfolioText = () => {
               </div>
             </div>
           </div> */}
-          <div className="col-12 col-sm-6 col-xl-3">
-            <div className="portfolio__single-alt-wrapper fade-top">
+          <div
+            className="col-12 col-sm-6 col-xl-3"
+            style={{
+              borderRadius: "25px",
+            }}
+          >
+            <div
+              className="portfolio__single-alt-wrapper fade-top"
+              style={{
+                borderRadius: "25px",
+              }}
+            >
               <div className="portfolio__single-alt topy-tilt">
                 <h4>
                   <Link href="portfolio">view all work</Link>
