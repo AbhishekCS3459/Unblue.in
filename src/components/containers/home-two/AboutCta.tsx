@@ -16,10 +16,34 @@ const AboutCta = () => {
                 <div className="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-9">
                   <div className="section__header text-center">
                     <h2 className="title">
-                      Stay Ahead With Our Top Notch  Services
+                      Stay Ahead With Our Top Notch Services
                     </h2>
+                    <p
+                      style={{
+                        textAlign: "start",
+                        fontSize: "1.2rem",
+                        lineHeight: "1.8",
+                        fontFamily: "Poppins",
+                        marginTop: "1rem",
+                        
+                      }}
+                    >
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Ratione deleniti magnam sapiente debitis ipsa libero ullam
+                      obcaecati laboriosam qui beatae, voluptas porro ipsam!
+                      Nemo pariatur tempore, magni veniam ad voluptatibus! Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit.
+                      Expedita sint voluptate repudiandae deserunt quia ullam
+                      officia laboriosam recusandae magnam, consequuntur modi
+                      accusamus ut ea. Quod deleniti placeat officia illum
+                      libero. Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Accusamus labore culpa autem nulla blanditiis
+                      suscipit, quia odio atque dignissimos esse sit beatae
+                      voluptatibus et velit, doloribus reiciendis consequuntur
+                      nisi non.
+                    </p>
                   </div>
-                  <div className="footer__single-form">
+                  {/* <div className="footer__single-form">
                     <form action="#" method="post">
                       <div className="input-email">
                         <input
@@ -34,7 +58,7 @@ const AboutCta = () => {
                         </button>
                       </div>
                     </form>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <Image src={star} alt="Image" className="star" />

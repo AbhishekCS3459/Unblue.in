@@ -1,10 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import one from "public/images/teams/one.png";
-import two from "public/images/teams/two.png";
-import three from "public/images/teams/three.png";
-import four from "public/images/teams/four.png";
+
+import one from "public/images/teams/Team1.png";
+import two from "public/images/teams/Team1.png";
+import three from "public/images/teams/Team1.png";
+import four from "public/images/teams/Team1.png";
+
+
 import five from "public/images/teams/five.png";
 import six from "public/images/teams/six.png";
 
@@ -24,9 +27,7 @@ const TeamMain = () => {
                   style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                 >
                   <div className="info">
-                    <p>
-                      Myself Nilambar Giri. Fundraising Consultant 
-                    </p>
+                    <p>Myself Nilambar Giri. Fundraising Consultant</p>
                   </div>
                   <h4>
                     <Link href="team-single">Nilambar Giri</Link>
@@ -66,9 +67,7 @@ const TeamMain = () => {
                   style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                 >
                   <div className="info">
-                    <p>
-                     Myself Piyush Raj. Marketing Consultant
-                    </p>
+                    <p>Myself Piyush Raj. Marketing Consultant</p>
                   </div>
                   <h4>
                     <Link href="team-single">Piyush Raj</Link>
@@ -108,16 +107,14 @@ const TeamMain = () => {
                   style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                 >
                   <div className="info">
-                    <p>
-                      Myself Abhijit Das. A professional video editor
-                    </p>
+                    <p>Myself Abhijit Das. A professional video editor</p>
                   </div>
                   <h4>
                     <Link href="team-single">Abhijit Das</Link>
                   </h4>
                   <p>Video Editor</p>
                   <div className="social-alt">
-                  <Link
+                    <Link
                       href="https://www.instagram.com/abhijit_das67_"
                       target="_blank"
                       aria-label="share us on facebook"
@@ -150,16 +147,14 @@ const TeamMain = () => {
                   style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                 >
                   <div className="info">
-                    <p>
-                      Myself Aquib Azmi. A professional video editor
-                    </p>
+                    <p>Myself Aquib Azmi. A professional video editor</p>
                   </div>
                   <h4>
                     <Link href="team-single">Aquib Azmi</Link>
                   </h4>
                   <p>Video Editor </p>
                   <div className="social-alt">
-                  <Link
+                    <Link
                       href="https://www.instagram.com/the_azmiicreations"
                       target="_blank"
                       aria-label="share us on facebook"

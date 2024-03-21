@@ -17,7 +17,7 @@ const AboutUs = () => {
       {/* <TeamMembers /> */}
       {/* <HomeTestimonial /> */}
       {/* <AboutSponsor /> */}
-      {/* <AboutCta /> */}
+      <AboutCta />
     </Layout>
   );
 };

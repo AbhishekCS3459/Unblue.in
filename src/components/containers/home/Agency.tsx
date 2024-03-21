@@ -97,14 +97,14 @@ const Agency = () => {
             <div className="agency__content section__content">
               <span className="sub-title"
               style={{
-                color:"blue",
+                color:"white",
                 outline:"blue",
                 stroke:"blue",
                 border:"blue 1px solid",
               }}
               >
                 Welcome
-                <i className="fa-solid fa-arrow-down"></i>
+                {/* <i className="fa-solid fa-arrow-down"></i> */}
               </span>
               <h3
                 className="title title-anim"

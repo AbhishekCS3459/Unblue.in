@@ -70,9 +70,8 @@ const HomeOffer = () => {
                   href="our-services"
                   className="btn btn--secondary"
                   style={{
-                    color: "blue",
+                    outline: "blue",
                     stroke: "blue",
-                    outlineColor: "blue",
                     border: "blue 1px solid",
                   }}
                 >
