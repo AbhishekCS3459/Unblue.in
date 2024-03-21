@@ -200,9 +200,9 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                         <li>
                           <Link href="our-teams">Our Teams</Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link href="team-single">Team Details</Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </li>
                     {/* <li>

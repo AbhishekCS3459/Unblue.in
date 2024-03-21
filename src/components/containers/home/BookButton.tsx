@@ -16,7 +16,9 @@ export default function BookButton() {
           href="https://calendly.com/piyushraj_unblue/marketing-consultation"
           className="btn btn--secondary custombtn"
           style={{
-            color: "#000",
+            
+            background:"#006BFA",
+            color: "white",
             fontWeight: "bolder",
             fontFamily: "sans-serif",
           }}

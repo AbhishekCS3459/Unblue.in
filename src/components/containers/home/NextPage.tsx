@@ -16,8 +16,7 @@ const NextPage = () => {
                 className="btn btn--primary sub-title mb-0"
                 style={{
                   outline: "blue",
-                  stroke: "blue",
-                  border: "blue 1px solid",
+                  border: "white 1px solid",
                 }}
               >
                 Next Page
