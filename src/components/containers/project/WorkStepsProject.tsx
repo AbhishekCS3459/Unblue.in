@@ -42,28 +42,26 @@ const WorkStepsProject = () => {
           <div className="row">
             <div className="col-12">
               <div className="section__header--secondary">
-                <div className="row gaper align-items-center">
-                  <div className="col-12 col-lg-5 col-xxl-5">
-                    <div className="section__header text-center text-lg-start mb-0">
+                {/* <div className="row gaper align-items-center"> */}
+                  {/* <div className="col-12 col-lg-5 col-xxl-5"> */}
+                    {/* <div className="section__header text-center text-lg-start mb-0">
                       <span className="sub-title">
                         working steps
                         <i className="fa-solid fa-arrow-right"></i>
                       </span>
-                      <h2 className="title title-anim">Our Work Process</h2>
-                    </div>
-                  </div>
-                  <div className="col-12 col-lg-7 col-xxl-5 offset-xxl-2">
+                      <h2 className="title title-anim">Work Process</h2>
+                    </div> */}
+                  {/* </div> */}
+                  {/* <div className="col-12 col-lg-7 col-xxl-5 offset-xxl-2">
                     <div className="text-center text-lg-start">
                       <p>
                         Bring to the table win-win survival strategies to ensure
-                        proactive domination. At the end of the day, going
-                        forward, a new normal that has evolved from generation
-                        on the runway heading towards
+                        proactiv.
                       </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                    </div> */}
+                  {/* </div> */}
+                {/* </div> */}
+              {/* </div>
             </div>
           </div>
           <div className="row">
@@ -74,19 +72,19 @@ const WorkStepsProject = () => {
                   (hover === 0 ? " work-steps__single-active" : " ")
                 }
                 onMouseEnter={() => setHover(0)}
-              >
-                <span>
+              > */}
+                {/* <span>
                   25
                   <br />%
                 </span>
-                <h5>Discover & Strategy.</h5>
-                <div
+                <h5>Discover & Strategy.</h5> */}
+                {/* <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
                     backgroundImage: "url('/images/work/thumb-one.png')",
                   }}
-                ></div>
-              </div>
+                ></div> */}
+              {/* </div>
             </div>
             <div className="col-12 col-sm-6 col-xl-3">
               <div
@@ -148,18 +146,18 @@ const WorkStepsProject = () => {
                   style={{
                     backgroundImage: "url('/images/work/thumb-one.png')",
                   }}
-                ></div>
+                ></div> */}
               </div>
             </div>
           </div>
         </div>
-        <button
+        {/* <button
           className="video-frame video-btn d-none d-md-flex"
           onClick={() => setVideoActive(true)}
         >
           <Image src={videoframe} alt="Image" />
           <i className="fa-sharp fa-solid fa-play"></i>
-        </button>
+        </button> */}
       </section>
       <div
         className={(videoActive ? " video-zoom-in" : " ") + " video-backdrop"}

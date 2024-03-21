@@ -47,9 +47,9 @@ const Footer = () => {
                   <li>
                     <Link href="contact-us">Contact Us</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="award-winnings">Award Winning</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -62,29 +62,29 @@ const Footer = () => {
               <div className="footer__single-content">
                 <ul>
                   <li>
-                    <Link href="video-editing"
+                    {/* <Link href="video-editing"
                     onClick={()=>{
                     
                     }}
-                    >
+                    > */}
                       Video Editing
-                    </Link>
+                    {/* </Link> */}
                   </li>
                   <li>
-                    <Link  href="content-creation">
+                    {/* <Link  href="content-creation"> */}
                       Content Creation
-                    </Link>
+                    {/* </Link> */}
                   </li>
                   <li>
-                    <Link  href="marketing-and-branding">
+                    {/* <Link  href="marketing-and-branding"> */}
                       Marketing & Branding
-                    </Link>
+                    {/* </Link> */}
                   </li>
                
                   <li>
-                    <Link  href="social-media-management">
+                    {/* <Link  href="social-media-management"> */}
                       Social Media Management
-                    </Link>
+                    {/* </Link> */}
                   </li>
                   <li>
                     <Link  href="https://iri-s.com/">
@@ -94,8 +94,10 @@ const Footer = () => {
                 
                 </ul>
                 {/* <p>
-                  Welcome to our digital agency We specialize in helping
-                  business most like yours succeed online.
+                Welcome to UNBLUE, where creativity knows no bounds and your brand's potential is unleashed!
+                          At UNBLUE, we do not just create content; we sculpt experiences that resonate deeply with your
+                          audience, driving engagement and sparking conversations. 
+
                 </p> */}
                 {/* <div className="footer__single-form">
                   <form action="#" method="post">
