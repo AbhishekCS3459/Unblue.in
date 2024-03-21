@@ -16,7 +16,13 @@ const HomeTestimonial = () => {
     setNextSlideIndex(nextIndex);
   };
   return (
-    <section className="section testimonial pt-0 position-relative">
+    <section
+      className="section testimonial pt-0 position-relative"
+      style={{
+        marginTop: "100px",
+        marginBottom: "100px",
+      }}
+    >
       <div className="testimonial__text-slider-w">
         <Swiper
           slidesPerView="auto"
@@ -37,67 +43,73 @@ const HomeTestimonial = () => {
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                   Client&apos;s Feedback
+                  Client&apos;s Feedback
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                   Client&apos;s Feedback
+                  Client&apos;s Feedback
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                   Client&apos;s Feedback
+                  Client&apos;s Feedback
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                   Client&apos;s Feedback
+                  Client&apos;s Feedback
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                   Client&apos;s Feedback
+                  Client&apos;s Feedback
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                   Client&apos;s Feedback
+                  Client&apos;s Feedback
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
                 <Link href="client-feedback">
-                   Client&apos;s Feedback
+                  Client&apos;s Feedback
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -105,6 +117,7 @@ const HomeTestimonial = () => {
           </SwiperSlide>
         </Swiper>
       </div>
+
       <div className="container position-relative">
         <div className="row">
           <div className="col-12 col-xxl-10">
@@ -280,6 +293,7 @@ const HomeTestimonial = () => {
           </button>
         </div>
       </div>
+
       <div className="other-section">
         <Image
           className="other-section-image"

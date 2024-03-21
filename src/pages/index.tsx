@@ -11,48 +11,44 @@ import NextPage from "@/components/containers/home/NextPage";
 import BookButton from "@/components/containers/home/BookButton";
 
 const Home = () => {
+  useEffect(() => {
+    const scrollY = localStorage.getItem("scrollPosition");
+    const mousePosition = localStorage.getItem("cursorDistance");
+    if (scrollY && mousePosition) {
+      window.scrollTo(
+        0,
+        Number.parseInt(scrollY) + Number.parseInt(mousePosition)
+      );
+    }
+  }, []);
 
- useEffect(() => {
-  
-  const scrollY=localStorage.getItem('scrollPosition')
-  const mousePosition=localStorage.getItem('cursorDistance')
-  if(scrollY&& mousePosition){
-    window.scrollTo(0,Number.parseInt(scrollY)+Number.parseInt(mousePosition))
-  }
-  
- },[])
- 
+  // new code
+  useEffect(() => {
+    // Function to update scroll position
+    const updateScrollPosition = () => {
+      const currentPosition = window.scrollY;
+      // setScrollPosition(currentPosition);
+      localStorage.setItem("scrollPosition", currentPosition.toString());
+    };
 
-// new code
-useEffect(() => {
-  // Function to update scroll position
-  const updateScrollPosition = () => {
-    const currentPosition = window.scrollY;
-    // setScrollPosition(currentPosition);
-    localStorage.setItem('scrollPosition', currentPosition.toString());
-  };
+    // Function to update cursor distance
+    const updateCursorDistance = (event: any) => {
+      const distanceFromTop = event.clientY;
+      // setCursorDistance(distanceFromTop);
+      localStorage.setItem("cursorDistance", distanceFromTop.toString());
+    };
 
-  // Function to update cursor distance
-  const updateCursorDistance = (event:any) => {
-    const distanceFromTop = event.clientY;
-    // setCursorDistance(distanceFromTop);
-    localStorage.setItem('cursorDistance', distanceFromTop.toString());
-  };
+    // Add event listeners
+    window.addEventListener("scroll", updateScrollPosition);
+    window.addEventListener("mousemove", updateCursorDistance);
 
-  // Add event listeners
-  window.addEventListener('scroll', updateScrollPosition);
-  window.addEventListener('mousemove', updateCursorDistance);
+    // Cleanup by removing event listeners
+    return () => {
+      window.removeEventListener("scroll", updateScrollPosition);
+      window.removeEventListener("mousemove", updateCursorDistance);
+    };
+  }, []); // Empty dependency array ensures this effect only runs once on mount
 
-  // Cleanup by removing event listeners
-  return () => {
-    window.removeEventListener('scroll', updateScrollPosition);
-    window.removeEventListener('mousemove', updateCursorDistance);
-  };
-}, []); // Empty dependency array ensures this effect only runs once on mount
-
-
-
-  
   return (
     <Layout header={1} footer={1} video={true}>
       <HomeOneBanner />
@@ -60,8 +56,8 @@ useEffect(() => {
       <HomeOffer />
       <PortfolioText />
       <HomeTestimonial />
-      <BookButton/>
-      
+      <BookButton />
+
       {/* <HomeBlog /> */}
       {/* <HomeSponsor /> */}
       <NextPage />
