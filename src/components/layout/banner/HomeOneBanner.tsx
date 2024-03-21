@@ -60,7 +60,7 @@ const HomeOneBanner = () => {
                     textShadow: "0px 50px 50px black",
                   }}
                 >
-                  A creative &
+                  A creative & &nbsp;
                   <span className="text-stroke">{' '}Innovative </span>
                   <span className="interval">
                     <i className="icon-arrow-top-right"></i> digital agency

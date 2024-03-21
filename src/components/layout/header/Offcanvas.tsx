@@ -146,7 +146,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     )}`}
                     onClick={() => handleSubmenu("projects")}
                   >
-                    Projects
+                    Testimonials
                   </button>
                   <ul
                     className={`navbar__sub-menu ${isSubMenuOpen("projects")}`}

@@ -57,8 +57,8 @@ useEffect(() => {
     <Layout header={1} footer={1} video={true}>
       <HomeOneBanner />
       <Agency />
-      <PortfolioText />
       <HomeOffer />
+      <PortfolioText />
       <HomeTestimonial />
       <BookButton/>
       

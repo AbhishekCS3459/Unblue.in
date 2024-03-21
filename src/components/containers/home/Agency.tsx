@@ -95,7 +95,14 @@ const Agency = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="agency__content section__content">
-              <span className="sub-title">
+              <span className="sub-title"
+              style={{
+                color:"blue",
+                outline:"blue",
+                stroke:"blue",
+                border:"blue 1px solid",
+              }}
+              >
                 Welcome
                 <i className="fa-solid fa-arrow-down"></i>
               </span>
@@ -195,11 +202,7 @@ const Agency = () => {
                   </div>
                 </div> */}
               </div>
-              <div className="section__content-cta">
-                <Link href="about-us" className="btn btn--primary">
-                  Know More
-                </Link>
-              </div>
+         
             </div>
           </div>
         </div>

@@ -29,6 +29,7 @@ const HomeOffer = () => {
           const dx = event.clientX - contentBox.x;
           const dy = event.clientY - contentBox.y;
           const thirdChild = item.children[2] as HTMLElement;
+          if(thirdChild)
           thirdChild.style.transform = `translate(${dx}px, ${dy}px) rotate(10deg)`;
         });
       }
@@ -47,26 +48,34 @@ const HomeOffer = () => {
         <div className="row gaper">
           <div className="col-12 col-lg-5 ">
             <div className="offer__content section__content">
-              <span
-                className="sub-title"
-                style={linearGradient}
-              >
+              <span className="sub-title" style={linearGradient}>
                 What We Offer
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-              We don&apos;t just offer services. we provide solutions that transform brands.
+                We don&apos;t just offer services. we provide solutions that
+                transform brands.
               </h2>
               <div className="paragraph">
-                <p
-                >
-                 Fulfill your ambitions with our innovative solutions. 
-                 From concept to execution, we are here to turn your vision into reality. 
-                 Explore our offerings and let&apos;s create greatness together!
+                <p>
+                  Fulfill your ambitions with our innovative solutions. From
+                  concept to execution, we are here to turn your vision into
+                  reality. Explore our offerings and let&apos;s create greatness
+                  together!
                 </p>
               </div>
-              <div className="section__content-cta">
-                <Link href="our-services" className="btn btn--secondary" >
+              <div className="section__content-cta"
+              >
+                <Link
+                  href="our-services"
+                  className="btn btn--secondary"
+                  style={{
+                    color: "blue",
+                    stroke: "blue",
+                    outlineColor: "blue",
+                    border: "blue 1px solid",
+                  }}
+                >
                   View All Services
                 </Link>
               </div>
@@ -76,24 +85,39 @@ const HomeOffer = () => {
           <div className="col-12 col-lg-7 col-xl-6 offset-xl-1">
             <div className="offer__cta">
               <div className="offer__cta-single fade-top">
-                <span className="sub-title">
+                {/* <span className="sub-title">
                   <i className="fa-solid fa-arrow-right"></i>
-                </span>
+                </span> */}
                 <h2>
-                <div
-                  className="section__content-cta"
-                  style={{backgroundColor: "tranaparent", color: "white", padding: "10px", borderRadius: "30px", cursor: "pointer",border: "1px solid white",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0px 0px 5px 3px #b6f5f6"}}
-                  >
-                                      <Link  
-                    href="service-single"
-                    onClick={() => {
-                      setData(RawData.VideoEditing);
+                  <div
+                    className="section__content-cta"
+                    style={{
+                      backgroundColor: "tranaparent",
+                      color: "white",
+                      padding: "10px",
+                      borderRadius: "30px",
+                      cursor: "pointer",
+                      border: "1px solid white",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      boxShadow: "0px 0px 5px 3px #b6f5f6",
                     }}
-                    style={{ color: "white",fontSize:"40px",marginLeft:"10px" }}
                   >
-                    Video Editing
-                    <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                  </Link>
+                    <Link
+                      href="service-single"
+                      onClick={() => {
+                        setData(RawData.VideoEditing);
+                      }}
+                      style={{
+                        color: "white",
+                        fontSize: "40px",
+                        marginLeft: "10px",
+                      }}
+                    >
+                      Video Editing
+                      <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                    </Link>
                   </div>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
@@ -101,23 +125,39 @@ const HomeOffer = () => {
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
-                <span className="sub-title">
+                {/* <span className="sub-title">
                   <i className="fa-solid fa-arrow-right"></i>
-                </span>
+                </span> */}
                 <h2>
                   <div
-                  className="section__content-cta"
-                  style={{backgroundColor: "tranaparent", color: "white", padding: "10px", borderRadius: "30px", cursor: "pointer",border: "1px solid white",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0px 0px 5px 3px #b6f5f6"}}>
-                                   <Link
-                    href="service-single"
-                    onClick={() => {
-                      setData(RawData.Advertisement);
+                    className="section__content-cta"
+                    style={{
+                      backgroundColor: "tranaparent",
+                      color: "white",
+                      padding: "10px",
+                      borderRadius: "30px",
+                      cursor: "pointer",
+                      border: "1px solid white",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      boxShadow: "0px 0px 5px 3px #b6f5f6",
                     }}
-                    style={{ color: "white",fontSize:"40px",marginLeft:"10px" }}
                   >
-                    Content Creation
-                    <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                  </Link>
+                    <Link
+                      href="service-single"
+                      onClick={() => {
+                        setData(RawData.Advertisement);
+                      }}
+                      style={{
+                        color: "white",
+                        fontSize: "40px",
+                        marginLeft: "10px",
+                      }}
+                    >
+                      Content Creation
+                      <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                    </Link>
                   </div>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
@@ -125,54 +165,82 @@ const HomeOffer = () => {
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
-                <span className="sub-title">
+                {/* <span className="sub-title">
                   <i className="fa-solid fa-arrow-right"></i>
-                </span>
+                </span> */}
                 <h2>
-                <div
-                  className="section__content-cta"
-                  
-                  
-                  style={{backgroundColor: "tranaparent", color: "white", padding: "10px", borderRadius: "30px", cursor: "pointer",border: "1px solid white",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0px 0px 5px 3px #b6f5f6"}}
-                  >
-                   <Link
-                    href="service-single"
-                    onClick={() => {
-                      setData(RawData.Marketing);
+                  <div
+                    className="section__content-cta"
+                    style={{
+                      backgroundColor: "tranaparent",
+                      color: "white",
+                      padding: "10px",
+                      borderRadius: "30px",
+                      cursor: "pointer",
+                      border: "1px solid white",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      boxShadow: "0px 0px 5px 3px #b6f5f6",
                     }}
-                    style={{ color: "white",fontSize:"40px",marginLeft:"10px" }}
                   >
-                    Marketing & Branding
-                    <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                  </Link>
+                    <Link
+                      href="service-single"
+                      onClick={() => {
+                        setData(RawData.Marketing);
+                      }}
+                      style={{
+                        color: "white",
+                        fontSize: "40px",
+                        marginLeft: "10px",
+                      }}
+                    >
+                      Marketing & Branding
+                      <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                    </Link>
                   </div>
-          
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={three} alt="Image" />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
-                <span className="sub-title">
+                {/* <span className="sub-title">
                   <i className="fa-solid fa-arrow-right"></i>
-                </span>
+                </span> */}
                 <h2>
-                <div
-                  className="section__content-cta"
-                  
-                  style={{backgroundColor: "tranaparent", color: "white", padding: "10px", borderRadius: "30px", cursor: "pointer",border: "1px solid white",display:"flex",alignItems:"center",justifyContent:"center",boxShadow:"0px 0px 5px 3px #b6f5f6"}}
-                 >
-
-                  <Link
-                    href="service-single"
-                    onClick={() => {
-                      setData(RawData.SMM);
+                  <div
+                    className="section__content-cta"
+                    style={{
+                      backgroundColor: "tranaparent",
+                      color: "white",
+                      padding: "10px",
+                      borderRadius: "30px",
+                      cursor: "pointer",
+                      border: "1px solid white",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      boxShadow: "0px 0px 5px 3px #b6f5f6",
                     }}
-                    style={{ color: "white",fontSize:"40px",marginLeft:"10px"}}
                   >
-                    Social Media Management
-                    <i className="fa-sharp fa-solid fa-arrow-up-right" style={{marginRight:"10px"}}></i>
-                  </Link>
+                    <Link
+                      href="service-single"
+                      onClick={() => {
+                        setData(RawData.SMM);
+                      }}
+                      style={{
+                        color: "white",
+                        fontSize: "40px",
+                        marginLeft: "10px",
+                      }}
+                    >
+                      Social Media Management
+                      <i
+                        className="fa-sharp fa-solid fa-arrow-up-right"
+                        style={{ marginRight: "10px" }}
+                      ></i>
+                    </Link>
                   </div>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">

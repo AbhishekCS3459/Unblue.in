@@ -97,7 +97,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           {/* <li>
                             <Link href="work-samples">Work Samples</Link>
                           </li> */}
-                          
+
                           {/* <li>
                             <Link href="index-five-light">
                               Interactive Portfolio Light
@@ -105,7 +105,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           </li> */}
                         </ul>
                       </li>
-                   
+
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
@@ -119,6 +119,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           </li>
                         </ul>
                       </li>
+
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
@@ -130,15 +131,28 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link href="our-projects">Our Projects</Link>
                           </li>
-
                         </ul>
                       </li>
+                      <li className="navbar__item navbar__item--has-children nav-fade">
+                        <Link
+                          href="https://iri-s.com/"
+                          aria-label="dropdown menu"
+                          className="navbar__dropdown-label"
+                          
+                        >
+                          Fundraising Consultant
+                        </Link>
+                        <ul className="navbar__sub-menu">
+                          <li>
+                            <Link href="our-projects">Our Projects</Link>
+                          </li>
+                        </ul>
+                      </li>
+
                       <li className="navbar__item nav-fade">
                         <Link href="about-us">About Us</Link>
                       </li>
-                      <li className="navbar__item nav-fade">
-                        <Link href="https://iri-s.com/">Fundraising Consultant</Link>
-                      </li>
+
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
@@ -194,7 +208,11 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   <div className="navbar__options">
                     <div className="navbar__mobile-options d-none d-sm-flex">
-                      <Link href="https://calendly.com/piyushraj_unblue/marketing-consultation" className="btn btn--secondary" target="_blank">
+                      <Link
+                        href="https://calendly.com/piyushraj_unblue/marketing-consultation"
+                        className="btn btn--secondary"
+                        target="_blank"
+                      >
                         Let&apos;s Talk
                       </Link>
                     </div>

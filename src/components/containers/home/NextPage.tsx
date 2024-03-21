@@ -11,7 +11,15 @@ const NextPage = () => {
         <div className="row justify-content-center">
           <div className="col-12 col-lg-8">
             <div className="section__header text-center">
-              <Link href="about-us" className="sub-title mb-0">
+              <Link
+                href="our-services"
+                className="btn btn--primary sub-title mb-0"
+                style={{
+                  outline: "blue",
+                  stroke: "blue",
+                  border: "blue 1px solid",
+                }}
+              >
                 Next Page
                 <i className="fa-solid fa-arrow-down"></i>
               </Link>
@@ -39,7 +47,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -49,7 +57,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1 str">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -59,7 +67,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -69,7 +77,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1 str">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -79,7 +87,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -89,7 +97,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1 str">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -99,7 +107,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -109,7 +117,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -119,7 +127,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1 str">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -129,7 +137,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -139,7 +147,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1 str">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -149,7 +157,7 @@ const NextPage = () => {
             <div className="next__text-slider-single">
               <h2 className="h1">
                 <Link href="about-us">
-               About Us
+                  About Us
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>

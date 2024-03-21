@@ -20,12 +20,10 @@ const ContactMain = () => {
                 <h4>Phone </h4>
                 <p>
                   <Link href="tel:">
-                  <ul>
-                    <li>+91 7260920637</li>
-                    <li>+91 9932908262</li>
-                  </ul>
-
-
+                    <ul>
+                      <li>+91 7260920637</li>
+                      <li>+91 9932908262</li>
+                    </ul>
                   </Link>
                 </p>
               </div>
@@ -54,10 +52,7 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Our Location</h4>
                 <p>
-                  <Link
-                    href=""
-                    target="_blank"
-                  >
+                  <Link href="" target="_blank">
                     Haldia, West Bengal,India
                   </Link>
                 </p>
@@ -77,22 +72,7 @@ const ContactMain = () => {
             </div>
           </div>
         </div>
-        
-        <div className="footer__cta text-start ">
-        <Link
-          href="https://calendly.com/piyushraj_unblue/marketing-consultation"
-          className="btn btn--secondary custombtn"
-          style={{
-            color: "#000",
-            fontWeight: "bolder",
-            fontFamily: "sans-serif",
-          }}
-        >
-          Let&apos;s Connect
-        </Link>
-      </div>
 
-      
         <div className="row">
           <div className="col-12">
             <div className="map-wrapper">
@@ -111,7 +91,6 @@ const ContactMain = () => {
                   </div>
                 </div>
 
-                
                 {/* <div className="col-12 col-lg-6">
                   <div className="contact-main__form  fade-top">
                     <h3>Leave A Message</h3>
@@ -164,9 +143,21 @@ const ContactMain = () => {
                 </div> */}
               </div>
             </div>
+            <div className="footer__cta text-start ">
+              <Link
+                href="https://calendly.com/piyushraj_unblue/marketing-consultation"
+                className="btn btn--secondary custombtn"
+                style={{
+                  color: "#000",
+                  fontWeight: "bolder",
+                  fontFamily: "sans-serif",
+                }}
+              >
+                Let&apos;s Connect
+              </Link>
+            </div>
           </div>
         </div>
-        
       </div>
     </section>
   );
