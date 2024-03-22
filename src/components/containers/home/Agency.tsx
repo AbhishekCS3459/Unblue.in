@@ -114,8 +114,9 @@ const Agency = () => {
                   textTransform: "uppercase",
                 }}
               >
-              Unblue is committed to breaking barrier and
+              Unblue  is committed to breaking barrier and
               revolutionizing digital marketing norms.
+              
               </h3>
               <div className="paragraph">
                 <p>{/* Write about it if possible  */}</p>

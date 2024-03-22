@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import one from "public/images/teams/Team1.png";
-import two from "public/images/teams/Team1.png";
-import three from "public/images/teams/Team1.png";
-import four from "public/images/teams/Team1.png";
+import one from "public/images/teams/Nilambar.png";
+import two from "public/images/teams/Piyush.png";
+import three from "public/images/teams/Abhijit.png";
+import four from "public/images/teams/Aquib.png";
 
 
 import five from "public/images/teams/five.png";
@@ -24,7 +24,7 @@ const TeamMain = () => {
                 </Link>
                 <div
                   className="thumb__content"
-                  style={{ backgroundImage: "url('/images/teams/bg.png')" }}
+                  style={{ backgroundImage: "url('/images/teams/Nilambar.png')" }}
                 >
                   <div className="info">
                     <p>Myself Nilambar Giri. Fundraising Consultant</p>
@@ -64,10 +64,10 @@ const TeamMain = () => {
                 </Link>
                 <div
                   className="thumb__content"
-                  style={{ backgroundImage: "url('/images/teams/bg.png')" }}
+                  style={{ backgroundImage: "url('/images/teams/Piyush.png')" }}
                 >
                   <div className="info">
-                    <p>Myself Piyush Raj. Marketing Consultant</p>
+                    <p>This is Piyush Raj. Marketing Consultant</p>
                   </div>
                   <h4>
                     <Link href="team-single">Piyush Raj</Link>
@@ -104,7 +104,7 @@ const TeamMain = () => {
                 </Link>
                 <div
                   className="thumb__content"
-                  style={{ backgroundImage: "url('/images/teams/bg.png')" }}
+                  style={{ backgroundImage: "url('/images/teams/Abhijit.png')" }}
                 >
                   <div className="info">
                     <p>Myself Abhijit Das. A professional video editor</p>
@@ -144,7 +144,7 @@ const TeamMain = () => {
                 </Link>
                 <div
                   className="thumb__content"
-                  style={{ backgroundImage: "url('/images/teams/bg.png')" }}
+                  style={{ backgroundImage: "url('/images/teams/Aquib.png')" }}
                 >
                   <div className="info">
                     <p>Myself Aquib Azmi. A professional video editor</p>

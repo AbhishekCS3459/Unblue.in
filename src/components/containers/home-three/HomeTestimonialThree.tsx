@@ -159,16 +159,15 @@ const HomeTestimonialThree = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                            Thank you immensely for your exceptional support,
+                          which has significantly boosted  my LinkedIn growth.
+                          Your dedication and contributions have been invaluable,
+                          and we look forward to continued success together.
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Pradeep Motwani </h5>
+                            <p>CEO @ TerraBlu & Angle Investor </p>
                           </div>
                         </div>
                       </div>
@@ -203,16 +202,14 @@ const HomeTestimonialThree = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                            Your outstanding support has fueled remarkable growth in our business. 
+                            Thank you for exceeding our expectations and being an invaluable partner. 
+                           
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Anand Nair </h5>
+                            <p>Director at Kenshine Global Logistics Private Limited</p>
                           </div>
                         </div>
                       </div>
@@ -247,16 +244,14 @@ const HomeTestimonialThree = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                            Your video editing services have been exceptional, elevating our content to new heights.
+                            Your attention to detail and creativity have made a significant impact on our projects. 
+                            Thank you for your outstanding contribution to our success.
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Dr. Life </h5>
+                            <p>Health Care Services </p>
                           </div>
                         </div>
                       </div>

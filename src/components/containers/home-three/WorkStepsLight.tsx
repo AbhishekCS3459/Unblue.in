@@ -49,7 +49,7 @@ const WorkStepsLight = () => {
                         working steps
                         <i className="fa-solid fa-arrow-right"></i>
                       </span>
-                      <h2 className="title title-anim">Our Work Process</h2>
+                      <h2 className="title title-anim">Work Process</h2>
                     </div>
                   </div>
                   <div className="col-12 col-lg-7 col-xxl-5 offset-xxl-2">

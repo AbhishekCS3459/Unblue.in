@@ -118,9 +118,11 @@ const FooterFive = () => {
               </div>
               <div className="paragraph">
                 <p>
-                  Welcome to our digital agency We specialize in helping
-                  business most like yours succeed online. From website design
-                  and development.
+                
+                Welcome to UNBLUE, where creativity knows no bounds and your brand&apos;s potential is unleashed!
+                          At UNBLUE, we do not just create content; we sculpt experiences that resonate deeply with your
+                          audience, driving engagement and sparking conversations. 
+
                 </p>
               </div>
               <div className="section__content-cta">

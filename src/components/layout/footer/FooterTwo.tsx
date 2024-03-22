@@ -121,7 +121,7 @@ const FooterTwo = () => {
                   Welcome to UNBLUE, where your vision meets our innovation. In
                   a world brimming with potential, UNBLUE stands as a pioneering
                   force in branding, marketing, and funding, dedicated to
-                  transforming startups into market leaders
+                  transforming startups into market leaders.
                 </p>
               </div>
               <div className="section__content-cta">

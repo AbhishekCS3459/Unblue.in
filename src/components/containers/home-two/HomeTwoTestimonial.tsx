@@ -78,10 +78,10 @@ const HomeTwoTestimonial = () => {
                       <div className="paragraph">
                         <blockquote className="secondary-text">
                           <q>
-                            Welcome to our digital agency We specialize in
-                            helping business most like yours succeed online.
-                            From website design and development to digital
-                            marketing agency
+                          Welcome to UNBLUE, where creativity knows no bounds and your brand&apos;s potential is unleashed!
+                          At UNBLUE, we do not just create content; we sculpt experiences that resonate deeply with your
+                          audience, driving engagement and sparking conversations. !
+
                           </q>
                         </blockquote>
                       </div>
@@ -101,10 +101,10 @@ const HomeTwoTestimonial = () => {
                       <div className="paragraph">
                         <blockquote className="secondary-text">
                           <q>
-                            Welcome to our digital agency We specialize in
-                            helping business most like yours succeed online.
-                            From website design and development to digital
-                            marketing agency
+                          Welcome to UNBLUE, where creativity knows no bounds and your brand&apos;s potential is unleashed!
+                          At UNBLUE, we do not just create content; we sculpt experiences that resonate deeply with your
+                          audience, driving engagement and sparking conversations. 
+
                           </q>
                         </blockquote>
                       </div>
@@ -124,10 +124,9 @@ const HomeTwoTestimonial = () => {
                       <div className="paragraph">
                         <blockquote className="secondary-text">
                           <q>
-                            Welcome to our digital agency We specialize in
-                            helping business most like yours succeed online.
-                            From website design and development to digital
-                            marketing agency
+                          Welcome to UNBLUE, where creativity knows no bounds and your brand&apos;s potential is unleashed!
+                          At UNBLUE, we do not just create content; we sculpt experiences that resonate deeply with your
+                          audience, driving engagement and sparking conversations. 
                           </q>
                         </blockquote>
                       </div>

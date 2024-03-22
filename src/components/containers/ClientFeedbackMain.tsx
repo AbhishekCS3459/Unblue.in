@@ -24,7 +24,7 @@ const ClientFeedbackMain = () => {
                   <Image src={avatar} alt="Image" />
                 </div>
                 <div className="author-meta">
-                  <h5>Daniel Smith</h5>
+                  <h5>Pradeep Motwani</h5>
                   <p>Senior engineer</p>
                 </div>
               </div>

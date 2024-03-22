@@ -23,24 +23,26 @@ const AboutCta = () => {
                         textAlign: "start",
                         fontSize: "1.2rem",
                         lineHeight: "1.8",
-                        fontFamily: "Poppins",
+                        fontFamily: "BOLD",
                         marginTop: "1rem",
                         
                       }}
                     >
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Ratione deleniti magnam sapiente debitis ipsa libero ullam
-                      obcaecati laboriosam qui beatae, voluptas porro ipsam!
-                      Nemo pariatur tempore, magni veniam ad voluptatibus! Lorem
-                      ipsum dolor sit amet consectetur adipisicing elit.
-                      Expedita sint voluptate repudiandae deserunt quia ullam
-                      officia laboriosam recusandae magnam, consequuntur modi
-                      accusamus ut ea. Quod deleniti placeat officia illum
-                      libero. Lorem ipsum dolor sit amet consectetur adipisicing
-                      elit. Accusamus labore culpa autem nulla blanditiis
-                      suscipit, quia odio atque dignissimos esse sit beatae
-                      voluptatibus et velit, doloribus reiciendis consequuntur
-                      nisi non.
+                    Welcome to UNBLUE, where creativity knows no bounds and your brand&apos;s potential is unleashed! 
+                    🚀 As a premier digital agency, we specialize in crafting captivating narratives through video editing, 
+                    content creation, advertising, and branding that leave a lasting impression.
+
+At UNBLUE, we do not just create content; we sculpt experiences that resonate deeply with your audience, driving engagement 
+and sparking conversations. Our team of visionary storytellers, innovative designers, and strategic marketers work tirelessly 
+to bring your brand&apos;s vision to life in ways that defy expectations.
+
+Whether you are seeking to elevate your online presence, launch a memorable campaign, or redefine your brand identity, UnBlue 
+is your partner in success. With our blend of creativity, expertise, and passion, we transform ideas into impactful realities 
+that set you apart in today&apos;s competitive digital landscape.
+
+Join us on a journey where the possibilities are endless, and the results are extraordinary. Let&apos;s paint the digital canvas
+ together and make your brand shine brighter than ever before. Elevate your digital presence with UNBLUE – where creativity 
+ meets innovation, and your success is our mission! 
                     </p>
                   </div>
                   {/* <div className="footer__single-form">
