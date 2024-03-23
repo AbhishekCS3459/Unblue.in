@@ -56,7 +56,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Thumbnail</Link>
+                  <Link href="portfolio">Thumbnail </Link>
                 </h4>
               </div>
             </div>
@@ -91,7 +91,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Video Editing</Link>
+                  <Link href="portfolio">Content Writing</Link>
                 </h4>
               </div>
             </div>
