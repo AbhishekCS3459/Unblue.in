@@ -24,12 +24,13 @@ const PortfolioMain = () => {
               </div>
               <div className="content">
                 <div className="tr">
-                  <Link href="service-single">
+                  {/* for picture Indian Logistics Market Forecast  */}
+                  <Link href="http://surl.li/rvulx">
                     <i className="icon-arrow-top-right"></i>
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Project 1</Link>
+                  <Link href="http://surl.li/rvulx">View Project</Link>
                 </h3>
               </div>
             </div>
@@ -41,14 +42,16 @@ const PortfolioMain = () => {
                   <Image src={twelve} alt="Image" />
                 </Link>
               </div>
+              {/*  for picture understanding carbon credits  */}
               <div className="content">
                 <div className="tr">
-                  <Link href="service-single">
+                  
+                  <Link href="http://surl.li/rvuwk">
                     <i className="icon-arrow-top-right"></i>
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Project 2</Link>
+                  <Link href="http://surl.li/rvuwk">View Project </Link> 
                 </h3>
               </div>
             </div>
@@ -60,14 +63,15 @@ const PortfolioMain = () => {
                   <Image src={fifteen} alt="Image" />
                 </Link>
               </div>
+              {/* startup event video */}
               <div className="content">
                 <div className="tr">
-                  <Link href="service-single">
+                  <Link href="https://drive.google.com/file/d/1zPz_MhpwScmgw6LSFEglHtcf-lTKBwzp/view?usp=sharing">
                     <i className="icon-arrow-top-right"></i>
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Project 3</Link>
+                  <Link href="https://drive.google.com/file/d/1zPz_MhpwScmgw6LSFEglHtcf-lTKBwzp/view?usp=sharing">View Project</Link>
                 </h3>
               </div>
             </div>
@@ -81,12 +85,13 @@ const PortfolioMain = () => {
               </div>
               <div className="content">
                 <div className="tr">
-                  <Link href="service-single">
+                  <Link href="https://drive.google.com/file/d/1l5_F_IvjsVG4ZJ6_V8K2agYOm2Nlu-fB/view?usp=sharing">
                     <i className="icon-arrow-top-right"></i>
                   </Link>
                 </div>
+                {/* anshu video */}
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Project 4</Link>
+                  <Link href="https://drive.google.com/file/d/1l5_F_IvjsVG4ZJ6_V8K2agYOm2Nlu-fB/view?usp=sharing">View Project</Link>
                 </h3>
               </div>
             </div>
@@ -100,13 +105,14 @@ const PortfolioMain = () => {
               </div>
               <div className="content">
                 <div className="tr">
-                  <Link href="service-single">
+                  {/* diwali bali voice over video */}
+                  <Link href="https://drive.google.com/file/d/1Cn-VpECMRwXFY5MDaa8XaXnZ3OM5lIId/view?usp=sharing">
                     <i className="icon-arrow-top-right"></i>
                   </Link>
                 </div>
-                <h3 className="light-title-lg">
-                  <Link href="service-single">Project 5</Link>
-                </h3>
+                <h1 className="light-title-lg">
+                  <Link href="https://drive.google.com/file/d/1Cn-VpECMRwXFY5MDaa8XaXnZ3OM5lIId/view?usp=sharing">View Project</Link>
+                </h1>
               </div>
             </div>
           </div>
@@ -119,12 +125,12 @@ const PortfolioMain = () => {
               </div>
               <div className="content">
                 <div className="tr">
-                  <Link href="service-single">
+                  <Link href="https://drive.google.com/file/d/1B9CtxkCfiF6I9Hh3c0B9cKj4aIPKFt5t/view?usp=sharing">
                     <i className="icon-arrow-top-right"></i>
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Project 6</Link>
+                  <Link href="https://drive.google.com/file/d/1B9CtxkCfiF6I9Hh3c0B9cKj4aIPKFt5t/view?usp=sharing">View Project</Link>
                 </h3>
               </div>
             </div>
@@ -138,12 +144,13 @@ const PortfolioMain = () => {
               </div>
               <div className="content">
                 <div className="tr">
-                  <Link href="service-single">
+                  {/*  For picture investing in sustainbale future  */}
+                  <Link href="http://surl.li/rvuzq">
                     <i className="icon-arrow-top-right"></i>
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Project 7</Link>
+                  <Link href="http://surl.li/rvuzq">View Project</Link>
                 </h3>
               </div>
             </div>
@@ -156,13 +163,14 @@ const PortfolioMain = () => {
                 </Link>
               </div>
               <div className="content">
+                {/*  for picture gati shakti initiative  */}
                 <div className="tr">
-                  <Link href="service-single">
+                  <Link href="http://surl.li/rvuvh">
                     <i className="icon-arrow-top-right"></i>
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Project 8</Link>
+                  <Link href="http://surl.li/rvuvh">View Project</Link>
                 </h3>
               </div>
             </div>

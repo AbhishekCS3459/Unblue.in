@@ -125,11 +125,11 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          Projects
+                          Portfolio
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-projects">Our Projects</Link>
+                            <Link href="portfolio">Our Portfolio</Link>
                           </li>
                         </ul>
                       </li>

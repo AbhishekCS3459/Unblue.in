@@ -105,8 +105,10 @@ const HomeOffer = () => {
                       boxShadow: "0px 0px 5px 3px #b6f5f6",
                     }}
                   >
+                    {/* yahe per our projects ka ek page banega aur our-services ke jagah pe "services-single" krke link add hoga */}
                     <Link
-                      href="service-single"
+                      href="our-services"
+                      
                       onClick={() => {
                         setData(RawData.VideoEditing);
                       }}
@@ -146,7 +148,8 @@ const HomeOffer = () => {
                     }}
                   >
                     <Link
-                      href="service-single"
+                      // href="service-single"
+                      href="our-services"
                       onClick={() => {
                         setData(RawData.Advertisement);
                       }}
@@ -186,7 +189,8 @@ const HomeOffer = () => {
                     }}
                   >
                     <Link
-                      href="service-single"
+                      // href="service-single"
+                      href="our-services"
                       onClick={() => {
                         setData(RawData.Marketing);
                       }}
@@ -226,7 +230,8 @@ const HomeOffer = () => {
                     }}
                   >
                     <Link
-                      href="service-single"
+                      // href="service-single"
+                      href="our-services"
                       onClick={() => {
                         setData(RawData.SMM);
                       }}

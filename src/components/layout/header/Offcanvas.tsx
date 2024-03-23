@@ -146,13 +146,13 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     )}`}
                     onClick={() => handleSubmenu("projects")}
                   >
-                    Projects
+                    Portfolio
                   </button>
                   <ul
                     className={`navbar__sub-menu ${isSubMenuOpen("projects")}`}
                   >
                     <li>
-                      <Link href="our-projects">Our Projects</Link>
+                      <Link href="portfolio">Our Portfolio</Link>
                     </li>
                     {/* <li>
                       <Link href="project-single">Project Details</Link>
